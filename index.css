@@ -9,6 +9,19 @@ a, p h1, h2, h3, a:hover, a:active, a:visited{
 a, p{
     font-family: 'Work Sans', sans-serif;
 }
+a{
+    color: #666;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(30, 30, 30, 0);
+    transition: .2s ease-in-out;
+}
+a:hover{
+    color: rgba(30, 30, 30,1);
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(30, 30, 30, 1);
+    transition: .2s ease-in-out;
+}
+
 h1, h2, h3{
     font-family: 'Prata', serif;
 }
