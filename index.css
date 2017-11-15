@@ -1,5 +1,9 @@
-.content-wrap{
+body, .content-wrap{
     height: 100%;
     width: 100%;
     background-color: #eee;
+}
+a, p h1, h2, h3, a:hover, a:active, a:visited{
+    color: #333;
+    text-decoration: none;
 }
