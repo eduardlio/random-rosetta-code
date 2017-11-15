@@ -5,8 +5,8 @@ $(document).ready(function(){
         data.tasks.forEach((task, i)=>{
             tasks.push(task);
         });
+        max = tasks.length;
     });
-    max = tasks.length;
     $(".next").on("click", ()=>{
         setRandomTask();
     })
