@@ -1,3 +1,4 @@
+
 body, .content-wrap{
     height: 100%;
     width: 100%;
@@ -6,4 +7,34 @@ body, .content-wrap{
 a, p h1, h2, h3, a:hover, a:active, a:visited{
     color: #333;
     text-decoration: none;
+}
+.abs-center{
+    position: absolute;
+    top:50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+header{
+    position: relative; 
+    top: 200px;
+    text-align: center;
+}
+.main{
+    margin: 20px auto;
+    text-align: center;
+}
+.button{
+    display: inline-flex;
+}
+.button *{
+    margin: 20px;
+    padding: 16px;
+    padding-right: 30px;
+    transition: .3s;
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px 0px rgba(30, 30, 50, 0.5);
+    cursor: pointer;
+}
+.button *:hover{
+    transition: .3s;
+    box-shadow: 0px 15px 30px 0px rgba(30, 30, 50, 0.3);
 }
