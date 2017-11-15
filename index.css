@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Prata|Work+Sans');
 body, .content-wrap{
-    height: 100%;
-    width: 100%;
     background-color: #eee;
 }
 a, p h1, h2, h3, a:hover, a:active, a:visited{
@@ -11,17 +9,19 @@ a, p h1, h2, h3, a:hover, a:active, a:visited{
 a, p{
     font-family: 'Work Sans', sans-serif;
 }
-h1{
+h1, h2, h3{
     font-family: 'Prata', serif;
+}
+#task{
+    margin: 20px auto;
+    width: 100%;
 }
 .abs-center{
     position: absolute;
     top:50%; left: 50%;
     transform: translate(-50%, -50%);
 }
-header{
-    position: relative; 
-    top: 200px;
+header{ 
     text-align: center;
 }
 .main{
@@ -29,9 +29,9 @@ header{
     text-align: center;
 }
 .button{
-    display: inline-flex;
 }
 .button *{
+    display: inline-block;
     margin: 20px;
     padding: 16px;
     padding-right: 30px;
@@ -43,4 +43,9 @@ header{
 .button *:hover{
     transition: .3s;
     box-shadow: 0px 15px 30px 0px rgba(30, 30, 50, 0.3);
+}
+.button::after{
+    display: table;
+    content: "";
+    clear: both;
 }
