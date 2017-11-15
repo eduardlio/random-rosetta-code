@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Prata|Work+Sans');
 body, .content-wrap{
     height: 100%;
     width: 100%;
@@ -7,6 +7,12 @@ body, .content-wrap{
 a, p h1, h2, h3, a:hover, a:active, a:visited{
     color: #333;
     text-decoration: none;
+}
+a, p{
+    font-family: 'Work Sans', sans-serif;
+}
+h1{
+    font-family: 'Prata', serif;
 }
 .abs-center{
     position: absolute;
