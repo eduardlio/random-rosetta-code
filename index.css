@@ -44,9 +44,8 @@ header{
     margin: 20px auto;
     text-align: center;
 }
-.button{
-}
 .button *{
+   background-color: #FFF;
     display: inline-block;
     margin: 10px 20px;
     padding: 16px;
