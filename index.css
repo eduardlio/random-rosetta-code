@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Prata|Work+Sans');
+body, .content-wrap{
+    background-color: #eee;
+}
+a, p h1, h2, h3, a:hover, a:active, a:visited{
+    color: #333;
+    text-decoration: none;
+}
+a, p{
+    font-family: 'Work Sans', sans-serif;
+}
+header a{
+    color: #666;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(30, 30, 30, 0);
+    transition: .2s ease-in-out;
+}
+header a:hover{
+    color: rgba(30, 30, 30,1);
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(30, 30, 30, 1);
+    transition: .2s ease-in-out;
+}
+
+h1, h2, h3{
+    font-family: 'Prata', serif;
+}
+#task{
+    margin: 20px auto;
+    width: 100%;
+}
+.content-wrap{
+    width: 80%;
+}
+.abs-center{
+    position: absolute;
+    top:50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+header{ 
+    text-align: center;
+}
+.main{
+    margin: 20px auto;
+    text-align: center;
+}
+.button *{
+   background-color: #FFF;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 16px;
+    transition: .3s;
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px 0px rgba(30, 30, 50, 0.5);
+    cursor: pointer;
+}
+
+.button *:hover{
+    transition: .3s;
+    box-shadow: 0px 15px 30px 0px rgba(30, 30, 50, 0.3);
+}
+.button::after{
+    display: table;
+    content: "";
+    clear: both;
+}
