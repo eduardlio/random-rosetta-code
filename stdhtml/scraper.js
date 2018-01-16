@@ -8,6 +8,7 @@ var app        = express();
 app.get('/', (req, res) =>{
    const url = "http://rosettacode.org/wiki/Category:Programming_Tasks";
    var json = {tasks: []};
+   var id = 0;
    request(url, (error, response, html)=>{
       if(!error){
          var $ = cheerio.load(html);
@@ -21,10 +22,14 @@ app.get('/', (req, res) =>{
                   if(sub[j].name=='li'){
                      var attribs =sub[j].children[0].attribs;
                      var subtitle = attribs.title;
-                     console.log("title: " + subtitle);
+                     console.log("id: " + id);
+                     console.log("name: " + subtitle);
                      var sublink = 'http://rosettacode.org'+attribs.href;
                      console.log("link: " + sublink);
-                     json.tasks.push({title: subtitle, link: sublink});
+                     json.tasks.push({
+                        id: id++, 
+                        name: subtitle, 
+                        link: sublink});
                   }
                }
             }

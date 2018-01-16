@@ -1,0 +1,6 @@
+<app-ex-search></app-ex-search>
+<div class="exercise-wrap">
+   <div *ngFor="let exercise of this.exercises">
+      <a routerLink="/exercise/{{exercise.id}}"> {{ exercise.name }} </a>
+   </div>
+</div>

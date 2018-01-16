@@ -1,3476 +1,4348 @@
-{
-    "tasks": [
+import { Exercise } from './exercise';
+export const EXERCISES: Exercise[] =[
         {
-            "title": "100 doors",
+            "id": 0,
+            "name": "100 doors",
             "link": "http://rosettacode.org/wiki/100_doors"
         },
         {
-            "title": "15 Puzzle Game",
+            "id": 1,
+            "name": "15 Puzzle Game",
             "link": "http://rosettacode.org/wiki/15_Puzzle_Game"
         },
         {
-            "title": "15 puzzle solver",
+            "id": 2,
+            "name": "15 puzzle solver",
             "link": "http://rosettacode.org/wiki/15_puzzle_solver"
         },
         {
-            "title": "2048",
+            "id": 3,
+            "name": "2048",
             "link": "http://rosettacode.org/wiki/2048"
         },
         {
-            "title": "24 game",
+            "id": 4,
+            "name": "24 game",
             "link": "http://rosettacode.org/wiki/24_game"
         },
         {
-            "title": "24 game/Solve",
+            "id": 5,
+            "name": "24 game/Solve",
             "link": "http://rosettacode.org/wiki/24_game/Solve"
         },
         {
-            "title": "4-rings or 4-squares puzzle",
+            "id": 6,
+            "name": "4-rings or 4-squares puzzle",
             "link": "http://rosettacode.org/wiki/4-rings_or_4-squares_puzzle"
         },
         {
-            "title": "9 billion names of God the integer",
+            "id": 7,
+            "name": "9 billion names of God the integer",
             "link": "http://rosettacode.org/wiki/9_billion_names_of_God_the_integer"
         },
         {
-            "title": "99 Bottles of Beer",
+            "id": 8,
+            "name": "99 Bottles of Beer",
             "link": "http://rosettacode.org/wiki/99_Bottles_of_Beer"
         },
         {
-            "title": "A+B",
+            "id": 9,
+            "name": "A+B",
             "link": "http://rosettacode.org/wiki/A%2BB"
         },
         {
-            "title": "ABC Problem",
+            "id": 10,
+            "name": "ABC Problem",
             "link": "http://rosettacode.org/wiki/ABC_Problem"
         },
         {
-            "title": "Abstract type",
+            "id": 11,
+            "name": "Abstract type",
             "link": "http://rosettacode.org/wiki/Abstract_type"
         },
         {
-            "title": "Abundant, deficient and perfect number classifications",
+            "id": 12,
+            "name": "Abundant, deficient and perfect number classifications",
             "link": "http://rosettacode.org/wiki/Abundant,_deficient_and_perfect_number_classifications"
         },
         {
-            "title": "Accumulator factory",
+            "id": 13,
+            "name": "Accumulator factory",
             "link": "http://rosettacode.org/wiki/Accumulator_factory"
         },
         {
-            "title": "Ackermann function",
+            "id": 14,
+            "name": "Ackermann function",
             "link": "http://rosettacode.org/wiki/Ackermann_function"
         },
         {
-            "title": "Active Directory/Connect",
+            "id": 15,
+            "name": "Active Directory/Connect",
             "link": "http://rosettacode.org/wiki/Active_Directory/Connect"
         },
         {
-            "title": "Active Directory/Search for a user",
+            "id": 16,
+            "name": "Active Directory/Search for a user",
             "link": "http://rosettacode.org/wiki/Active_Directory/Search_for_a_user"
         },
         {
-            "title": "Active object",
+            "id": 17,
+            "name": "Active object",
             "link": "http://rosettacode.org/wiki/Active_object"
         },
         {
-            "title": "Add a variable to a class instance at runtime",
+            "id": 18,
+            "name": "Add a variable to a class instance at runtime",
             "link": "http://rosettacode.org/wiki/Add_a_variable_to_a_class_instance_at_runtime"
         },
         {
-            "title": "Address of a variable",
+            "id": 19,
+            "name": "Address of a variable",
             "link": "http://rosettacode.org/wiki/Address_of_a_variable"
         },
         {
-            "title": "AKS test for primes",
+            "id": 20,
+            "name": "AKS test for primes",
             "link": "http://rosettacode.org/wiki/AKS_test_for_primes"
         },
         {
-            "title": "Align columns",
+            "id": 21,
+            "name": "Align columns",
             "link": "http://rosettacode.org/wiki/Align_columns"
         },
         {
-            "title": "Aliquot sequence classifications",
+            "id": 22,
+            "name": "Aliquot sequence classifications",
             "link": "http://rosettacode.org/wiki/Aliquot_sequence_classifications"
         },
         {
-            "title": "Almost prime",
+            "id": 23,
+            "name": "Almost prime",
             "link": "http://rosettacode.org/wiki/Almost_prime"
         },
         {
-            "title": "Amb",
+            "id": 24,
+            "name": "Amb",
             "link": "http://rosettacode.org/wiki/Amb"
         },
         {
-            "title": "Amicable pairs",
+            "id": 25,
+            "name": "Amicable pairs",
             "link": "http://rosettacode.org/wiki/Amicable_pairs"
         },
         {
-            "title": "Anagrams",
+            "id": 26,
+            "name": "Anagrams",
             "link": "http://rosettacode.org/wiki/Anagrams"
         },
         {
-            "title": "Anagrams/Deranged anagrams",
+            "id": 27,
+            "name": "Anagrams/Deranged anagrams",
             "link": "http://rosettacode.org/wiki/Anagrams/Deranged_anagrams"
         },
         {
-            "title": "Angle difference between two bearings",
+            "id": 28,
+            "name": "Angle difference between two bearings",
             "link": "http://rosettacode.org/wiki/Angle_difference_between_two_bearings"
         },
         {
-            "title": "Animate a pendulum",
+            "id": 29,
+            "name": "Animate a pendulum",
             "link": "http://rosettacode.org/wiki/Animate_a_pendulum"
         },
         {
-            "title": "Animation",
+            "id": 30,
+            "name": "Animation",
             "link": "http://rosettacode.org/wiki/Animation"
         },
         {
-            "title": "Anonymous recursion",
+            "id": 31,
+            "name": "Anonymous recursion",
             "link": "http://rosettacode.org/wiki/Anonymous_recursion"
         },
         {
-            "title": "Append a record to the end of a text file",
+            "id": 32,
+            "name": "Append a record to the end of a text file",
             "link": "http://rosettacode.org/wiki/Append_a_record_to_the_end_of_a_text_file"
         },
         {
-            "title": "Apply a callback to an array",
+            "id": 33,
+            "name": "Apply a callback to an array",
             "link": "http://rosettacode.org/wiki/Apply_a_callback_to_an_array"
         },
         {
-            "title": "Apply a digital filter (direct form II transposed)",
+            "id": 34,
+            "name": "Apply a digital filter (direct form II transposed)",
             "link": "http://rosettacode.org/wiki/Apply_a_digital_filter_(direct_form_II_transposed)"
         },
         {
-            "title": "Arbitrary-precision integers (included)",
+            "id": 35,
+            "name": "Arbitrary-precision integers (included)",
             "link": "http://rosettacode.org/wiki/Arbitrary-precision_integers_(included)"
         },
         {
-            "title": "Archimedean spiral",
+            "id": 36,
+            "name": "Archimedean spiral",
             "link": "http://rosettacode.org/wiki/Archimedean_spiral"
         },
         {
-            "title": "Arena storage pool",
+            "id": 37,
+            "name": "Arena storage pool",
             "link": "http://rosettacode.org/wiki/Arena_storage_pool"
         },
         {
-            "title": "Arithmetic evaluation",
+            "id": 38,
+            "name": "Arithmetic evaluation",
             "link": "http://rosettacode.org/wiki/Arithmetic_evaluation"
         },
         {
-            "title": "Arithmetic-geometric mean",
+            "id": 39,
+            "name": "Arithmetic-geometric mean",
             "link": "http://rosettacode.org/wiki/Arithmetic-geometric_mean"
         },
         {
-            "title": "Arithmetic-geometric mean/Calculate Pi",
+            "id": 40,
+            "name": "Arithmetic-geometric mean/Calculate Pi",
             "link": "http://rosettacode.org/wiki/Arithmetic-geometric_mean/Calculate_Pi"
         },
         {
-            "title": "Arithmetic/Complex",
+            "id": 41,
+            "name": "Arithmetic/Complex",
             "link": "http://rosettacode.org/wiki/Arithmetic/Complex"
         },
         {
-            "title": "Arithmetic/Integer",
+            "id": 42,
+            "name": "Arithmetic/Integer",
             "link": "http://rosettacode.org/wiki/Arithmetic/Integer"
         },
         {
-            "title": "Arithmetic/Rational",
+            "id": 43,
+            "name": "Arithmetic/Rational",
             "link": "http://rosettacode.org/wiki/Arithmetic/Rational"
         },
         {
-            "title": "Array concatenation",
+            "id": 44,
+            "name": "Array concatenation",
             "link": "http://rosettacode.org/wiki/Array_concatenation"
         },
         {
-            "title": "Array length",
+            "id": 45,
+            "name": "Array length",
             "link": "http://rosettacode.org/wiki/Array_length"
         },
         {
-            "title": "Arrays",
+            "id": 46,
+            "name": "Arrays",
             "link": "http://rosettacode.org/wiki/Arrays"
         },
         {
-            "title": "Assertions",
+            "id": 47,
+            "name": "Assertions",
             "link": "http://rosettacode.org/wiki/Assertions"
         },
         {
-            "title": "Associative array/Creation",
+            "id": 48,
+            "name": "Associative array/Creation",
             "link": "http://rosettacode.org/wiki/Associative_array/Creation"
         },
         {
-            "title": "Associative array/Iteration",
+            "id": 49,
+            "name": "Associative array/Iteration",
             "link": "http://rosettacode.org/wiki/Associative_array/Iteration"
         },
         {
-            "title": "Atomic updates",
+            "id": 50,
+            "name": "Atomic updates",
             "link": "http://rosettacode.org/wiki/Atomic_updates"
         },
         {
-            "title": "Average loop length",
+            "id": 51,
+            "name": "Average loop length",
             "link": "http://rosettacode.org/wiki/Average_loop_length"
         },
         {
-            "title": "Averages/Arithmetic mean",
+            "id": 52,
+            "name": "Averages/Arithmetic mean",
             "link": "http://rosettacode.org/wiki/Averages/Arithmetic_mean"
         },
         {
-            "title": "Averages/Mean angle",
+            "id": 53,
+            "name": "Averages/Mean angle",
             "link": "http://rosettacode.org/wiki/Averages/Mean_angle"
         },
         {
-            "title": "Averages/Mean time of day",
+            "id": 54,
+            "name": "Averages/Mean time of day",
             "link": "http://rosettacode.org/wiki/Averages/Mean_time_of_day"
         },
         {
-            "title": "Averages/Median",
+            "id": 55,
+            "name": "Averages/Median",
             "link": "http://rosettacode.org/wiki/Averages/Median"
         },
         {
-            "title": "Averages/Mode",
+            "id": 56,
+            "name": "Averages/Mode",
             "link": "http://rosettacode.org/wiki/Averages/Mode"
         },
         {
-            "title": "Averages/Pythagorean means",
+            "id": 57,
+            "name": "Averages/Pythagorean means",
             "link": "http://rosettacode.org/wiki/Averages/Pythagorean_means"
         },
         {
-            "title": "Averages/Root mean square",
+            "id": 58,
+            "name": "Averages/Root mean square",
             "link": "http://rosettacode.org/wiki/Averages/Root_mean_square"
         },
         {
-            "title": "Averages/Simple moving average",
+            "id": 59,
+            "name": "Averages/Simple moving average",
             "link": "http://rosettacode.org/wiki/Averages/Simple_moving_average"
         },
         {
-            "title": "AVL tree",
+            "id": 60,
+            "name": "AVL tree",
             "link": "http://rosettacode.org/wiki/AVL_tree"
         },
         {
-            "title": "Babbage problem",
+            "id": 61,
+            "name": "Babbage problem",
             "link": "http://rosettacode.org/wiki/Babbage_problem"
         },
         {
-            "title": "Balanced brackets",
+            "id": 62,
+            "name": "Balanced brackets",
             "link": "http://rosettacode.org/wiki/Balanced_brackets"
         },
         {
-            "title": "Balanced ternary",
+            "id": 63,
+            "name": "Balanced ternary",
             "link": "http://rosettacode.org/wiki/Balanced_ternary"
         },
         {
-            "title": "Barnsley fern",
+            "id": 64,
+            "name": "Barnsley fern",
             "link": "http://rosettacode.org/wiki/Barnsley_fern"
         },
         {
-            "title": "Benford's law",
+            "id": 65,
+            "name": "Benford's law",
             "link": "http://rosettacode.org/wiki/Benford%27s_law"
         },
         {
-            "title": "Bernoulli numbers",
+            "id": 66,
+            "name": "Bernoulli numbers",
             "link": "http://rosettacode.org/wiki/Bernoulli_numbers"
         },
         {
-            "title": "Best shuffle",
+            "id": 67,
+            "name": "Best shuffle",
             "link": "http://rosettacode.org/wiki/Best_shuffle"
         },
         {
-            "title": "Binary digits",
+            "id": 68,
+            "name": "Binary digits",
             "link": "http://rosettacode.org/wiki/Binary_digits"
         },
         {
-            "title": "Binary search",
+            "id": 69,
+            "name": "Binary search",
             "link": "http://rosettacode.org/wiki/Binary_search"
         },
         {
-            "title": "Binary strings",
+            "id": 70,
+            "name": "Binary strings",
             "link": "http://rosettacode.org/wiki/Binary_strings"
         },
         {
-            "title": "Bitcoin/address validation",
+            "id": 71,
+            "name": "Bitcoin/address validation",
             "link": "http://rosettacode.org/wiki/Bitcoin/address_validation"
         },
         {
-            "title": "Bitcoin/public point to address",
+            "id": 72,
+            "name": "Bitcoin/public point to address",
             "link": "http://rosettacode.org/wiki/Bitcoin/public_point_to_address"
         },
         {
-            "title": "Bitmap",
+            "id": 73,
+            "name": "Bitmap",
             "link": "http://rosettacode.org/wiki/Bitmap"
         },
         {
-            "title": "Bitmap/Bresenham's line algorithm",
+            "id": 74,
+            "name": "Bitmap/Bresenham's line algorithm",
             "link": "http://rosettacode.org/wiki/Bitmap/Bresenham%27s_line_algorithm"
         },
         {
-            "title": "Bitmap/Bézier curves/Cubic",
+            "id": 75,
+            "name": "Bitmap/Bézier curves/Cubic",
             "link": "http://rosettacode.org/wiki/Bitmap/B%C3%A9zier_curves/Cubic"
         },
         {
-            "title": "Bitmap/Bézier curves/Quadratic",
+            "id": 76,
+            "name": "Bitmap/Bézier curves/Quadratic",
             "link": "http://rosettacode.org/wiki/Bitmap/B%C3%A9zier_curves/Quadratic"
         },
         {
-            "title": "Bitmap/Flood fill",
+            "id": 77,
+            "name": "Bitmap/Flood fill",
             "link": "http://rosettacode.org/wiki/Bitmap/Flood_fill"
         },
         {
-            "title": "Bitmap/Histogram",
+            "id": 78,
+            "name": "Bitmap/Histogram",
             "link": "http://rosettacode.org/wiki/Bitmap/Histogram"
         },
         {
-            "title": "Bitmap/Midpoint circle algorithm",
+            "id": 79,
+            "name": "Bitmap/Midpoint circle algorithm",
             "link": "http://rosettacode.org/wiki/Bitmap/Midpoint_circle_algorithm"
         },
         {
-            "title": "Bitmap/PPM conversion through a pipe",
+            "id": 80,
+            "name": "Bitmap/PPM conversion through a pipe",
             "link": "http://rosettacode.org/wiki/Bitmap/PPM_conversion_through_a_pipe"
         },
         {
-            "title": "Bitmap/Read a PPM file",
+            "id": 81,
+            "name": "Bitmap/Read a PPM file",
             "link": "http://rosettacode.org/wiki/Bitmap/Read_a_PPM_file"
         },
         {
-            "title": "Bitmap/Read an image through a pipe",
+            "id": 82,
+            "name": "Bitmap/Read an image through a pipe",
             "link": "http://rosettacode.org/wiki/Bitmap/Read_an_image_through_a_pipe"
         },
         {
-            "title": "Bitmap/Write a PPM file",
+            "id": 83,
+            "name": "Bitmap/Write a PPM file",
             "link": "http://rosettacode.org/wiki/Bitmap/Write_a_PPM_file"
         },
         {
-            "title": "Bitwise IO",
+            "id": 84,
+            "name": "Bitwise IO",
             "link": "http://rosettacode.org/wiki/Bitwise_IO"
         },
         {
-            "title": "Bitwise operations",
+            "id": 85,
+            "name": "Bitwise operations",
             "link": "http://rosettacode.org/wiki/Bitwise_operations"
         },
         {
-            "title": "Boolean values",
+            "id": 86,
+            "name": "Boolean values",
             "link": "http://rosettacode.org/wiki/Boolean_values"
         },
         {
-            "title": "Box the compass",
+            "id": 87,
+            "name": "Box the compass",
             "link": "http://rosettacode.org/wiki/Box_the_compass"
         },
         {
-            "title": "Brace expansion",
+            "id": 88,
+            "name": "Brace expansion",
             "link": "http://rosettacode.org/wiki/Brace_expansion"
         },
         {
-            "title": "Break OO privacy",
+            "id": 89,
+            "name": "Break OO privacy",
             "link": "http://rosettacode.org/wiki/Break_OO_privacy"
         },
         {
-            "title": "Brownian tree",
+            "id": 90,
+            "name": "Brownian tree",
             "link": "http://rosettacode.org/wiki/Brownian_tree"
         },
         {
-            "title": "Bulls and cows",
+            "id": 91,
+            "name": "Bulls and cows",
             "link": "http://rosettacode.org/wiki/Bulls_and_cows"
         },
         {
-            "title": "Bulls and cows/Player",
+            "id": 92,
+            "name": "Bulls and cows/Player",
             "link": "http://rosettacode.org/wiki/Bulls_and_cows/Player"
         },
         {
-            "title": "Caesar cipher",
+            "id": 93,
+            "name": "Caesar cipher",
             "link": "http://rosettacode.org/wiki/Caesar_cipher"
         },
         {
-            "title": "Calendar",
+            "id": 94,
+            "name": "Calendar",
             "link": "http://rosettacode.org/wiki/Calendar"
         },
         {
-            "title": "Calendar - for \"REAL\" programmers",
+            "id": 95,
+            "name": "Calendar - for \"REAL\" programmers",
             "link": "http://rosettacode.org/wiki/Calendar_-_for_%22REAL%22_programmers"
         },
         {
-            "title": "Call a foreign-language function",
+            "id": 96,
+            "name": "Call a foreign-language function",
             "link": "http://rosettacode.org/wiki/Call_a_foreign-language_function"
         },
         {
-            "title": "Call a function",
+            "id": 97,
+            "name": "Call a function",
             "link": "http://rosettacode.org/wiki/Call_a_function"
         },
         {
-            "title": "Call a function in a shared library",
+            "id": 98,
+            "name": "Call a function in a shared library",
             "link": "http://rosettacode.org/wiki/Call_a_function_in_a_shared_library"
         },
         {
-            "title": "Call an object method",
+            "id": 99,
+            "name": "Call an object method",
             "link": "http://rosettacode.org/wiki/Call_an_object_method"
         },
         {
-            "title": "Canny edge detector",
+            "id": 100,
+            "name": "Canny edge detector",
             "link": "http://rosettacode.org/wiki/Canny_edge_detector"
         },
         {
-            "title": "Carmichael 3 strong pseudoprimes",
+            "id": 101,
+            "name": "Carmichael 3 strong pseudoprimes",
             "link": "http://rosettacode.org/wiki/Carmichael_3_strong_pseudoprimes"
         },
         {
-            "title": "Cartesian product of two or more lists",
+            "id": 102,
+            "name": "Cartesian product of two or more lists",
             "link": "http://rosettacode.org/wiki/Cartesian_product_of_two_or_more_lists"
         },
         {
-            "title": "Case-sensitivity of identifiers",
+            "id": 103,
+            "name": "Case-sensitivity of identifiers",
             "link": "http://rosettacode.org/wiki/Case-sensitivity_of_identifiers"
         },
         {
-            "title": "Casting out nines",
+            "id": 104,
+            "name": "Casting out nines",
             "link": "http://rosettacode.org/wiki/Casting_out_nines"
         },
         {
-            "title": "Catalan numbers",
+            "id": 105,
+            "name": "Catalan numbers",
             "link": "http://rosettacode.org/wiki/Catalan_numbers"
         },
         {
-            "title": "Catalan numbers/Pascal's triangle",
+            "id": 106,
+            "name": "Catalan numbers/Pascal's triangle",
             "link": "http://rosettacode.org/wiki/Catalan_numbers/Pascal%27s_triangle"
         },
         {
-            "title": "Catamorphism",
+            "id": 107,
+            "name": "Catamorphism",
             "link": "http://rosettacode.org/wiki/Catamorphism"
         },
         {
-            "title": "Catmull–Clark subdivision surface",
+            "id": 108,
+            "name": "Catmull–Clark subdivision surface",
             "link": "http://rosettacode.org/wiki/Catmull%E2%80%93Clark_subdivision_surface"
         },
         {
-            "title": "Chaos game",
+            "id": 109,
+            "name": "Chaos game",
             "link": "http://rosettacode.org/wiki/Chaos_game"
         },
         {
-            "title": "Character codes",
+            "id": 110,
+            "name": "Character codes",
             "link": "http://rosettacode.org/wiki/Character_codes"
         },
         {
-            "title": "Chat server",
+            "id": 111,
+            "name": "Chat server",
             "link": "http://rosettacode.org/wiki/Chat_server"
         },
         {
-            "title": "Check Machin-like formulas",
+            "id": 112,
+            "name": "Check Machin-like formulas",
             "link": "http://rosettacode.org/wiki/Check_Machin-like_formulas"
         },
         {
-            "title": "Check that file exists",
+            "id": 113,
+            "name": "Check that file exists",
             "link": "http://rosettacode.org/wiki/Check_that_file_exists"
         },
         {
-            "title": "Checkpoint synchronization",
+            "id": 114,
+            "name": "Checkpoint synchronization",
             "link": "http://rosettacode.org/wiki/Checkpoint_synchronization"
         },
         {
-            "title": "Chinese remainder theorem",
+            "id": 115,
+            "name": "Chinese remainder theorem",
             "link": "http://rosettacode.org/wiki/Chinese_remainder_theorem"
         },
         {
-            "title": "Chinese zodiac",
+            "id": 116,
+            "name": "Chinese zodiac",
             "link": "http://rosettacode.org/wiki/Chinese_zodiac"
         },
         {
-            "title": "Cholesky decomposition",
+            "id": 117,
+            "name": "Cholesky decomposition",
             "link": "http://rosettacode.org/wiki/Cholesky_decomposition"
         },
         {
-            "title": "Circles of given radius through two points",
+            "id": 118,
+            "name": "Circles of given radius through two points",
             "link": "http://rosettacode.org/wiki/Circles_of_given_radius_through_two_points"
         },
         {
-            "title": "Classes",
+            "id": 119,
+            "name": "Classes",
             "link": "http://rosettacode.org/wiki/Classes"
         },
         {
-            "title": "Closest-pair problem",
+            "id": 120,
+            "name": "Closest-pair problem",
             "link": "http://rosettacode.org/wiki/Closest-pair_problem"
         },
         {
-            "title": "Closures/Value capture",
+            "id": 121,
+            "name": "Closures/Value capture",
             "link": "http://rosettacode.org/wiki/Closures/Value_capture"
         },
         {
-            "title": "Collections",
+            "id": 122,
+            "name": "Collections",
             "link": "http://rosettacode.org/wiki/Collections"
         },
         {
-            "title": "Color of a screen pixel",
+            "id": 123,
+            "name": "Color of a screen pixel",
             "link": "http://rosettacode.org/wiki/Color_of_a_screen_pixel"
         },
         {
-            "title": "Color quantization",
+            "id": 124,
+            "name": "Color quantization",
             "link": "http://rosettacode.org/wiki/Color_quantization"
         },
         {
-            "title": "Colour bars/Display",
+            "id": 125,
+            "name": "Colour bars/Display",
             "link": "http://rosettacode.org/wiki/Colour_bars/Display"
         },
         {
-            "title": "Colour pinstripe/Display",
+            "id": 126,
+            "name": "Colour pinstripe/Display",
             "link": "http://rosettacode.org/wiki/Colour_pinstripe/Display"
         },
         {
-            "title": "Colour pinstripe/Printer",
+            "id": 127,
+            "name": "Colour pinstripe/Printer",
             "link": "http://rosettacode.org/wiki/Colour_pinstripe/Printer"
         },
         {
-            "title": "Combinations",
+            "id": 128,
+            "name": "Combinations",
             "link": "http://rosettacode.org/wiki/Combinations"
         },
         {
-            "title": "Combinations and permutations",
+            "id": 129,
+            "name": "Combinations and permutations",
             "link": "http://rosettacode.org/wiki/Combinations_and_permutations"
         },
         {
-            "title": "Combinations with repetitions",
+            "id": 130,
+            "name": "Combinations with repetitions",
             "link": "http://rosettacode.org/wiki/Combinations_with_repetitions"
         },
         {
-            "title": "Comma quibbling",
+            "id": 131,
+            "name": "Comma quibbling",
             "link": "http://rosettacode.org/wiki/Comma_quibbling"
         },
         {
-            "title": "Command-line arguments",
+            "id": 132,
+            "name": "Command-line arguments",
             "link": "http://rosettacode.org/wiki/Command-line_arguments"
         },
         {
-            "title": "Commatizing numbers",
+            "id": 133,
+            "name": "Commatizing numbers",
             "link": "http://rosettacode.org/wiki/Commatizing_numbers"
         },
         {
-            "title": "Comments",
+            "id": 134,
+            "name": "Comments",
             "link": "http://rosettacode.org/wiki/Comments"
         },
         {
-            "title": "Compare a list of strings",
+            "id": 135,
+            "name": "Compare a list of strings",
             "link": "http://rosettacode.org/wiki/Compare_a_list_of_strings"
         },
         {
-            "title": "Compare sorting algorithms' performance",
+            "id": 136,
+            "name": "Compare sorting algorithms' performance",
             "link": "http://rosettacode.org/wiki/Compare_sorting_algorithms%27_performance"
         },
         {
-            "title": "Compile-time calculation",
+            "id": 137,
+            "name": "Compile-time calculation",
             "link": "http://rosettacode.org/wiki/Compile-time_calculation"
         },
         {
-            "title": "Compiler/AST interpreter",
+            "id": 138,
+            "name": "Compiler/AST interpreter",
             "link": "http://rosettacode.org/wiki/Compiler/AST_interpreter"
         },
         {
-            "title": "Compiler/code generator",
+            "id": 139,
+            "name": "Compiler/code generator",
             "link": "http://rosettacode.org/wiki/Compiler/code_generator"
         },
         {
-            "title": "Compiler/lexical analyzer",
+            "id": 140,
+            "name": "Compiler/lexical analyzer",
             "link": "http://rosettacode.org/wiki/Compiler/lexical_analyzer"
         },
         {
-            "title": "Compiler/syntax analyzer",
+            "id": 141,
+            "name": "Compiler/syntax analyzer",
             "link": "http://rosettacode.org/wiki/Compiler/syntax_analyzer"
         },
         {
-            "title": "Compiler/virtual machine interpreter",
+            "id": 142,
+            "name": "Compiler/virtual machine interpreter",
             "link": "http://rosettacode.org/wiki/Compiler/virtual_machine_interpreter"
         },
         {
-            "title": "Compound data type",
+            "id": 143,
+            "name": "Compound data type",
             "link": "http://rosettacode.org/wiki/Compound_data_type"
         },
         {
-            "title": "Concurrent computing",
+            "id": 144,
+            "name": "Concurrent computing",
             "link": "http://rosettacode.org/wiki/Concurrent_computing"
         },
         {
-            "title": "Conditional structures",
+            "id": 145,
+            "name": "Conditional structures",
             "link": "http://rosettacode.org/wiki/Conditional_structures"
         },
         {
-            "title": "Conjugate transpose",
+            "id": 146,
+            "name": "Conjugate transpose",
             "link": "http://rosettacode.org/wiki/Conjugate_transpose"
         },
         {
-            "title": "Constrained genericity",
+            "id": 147,
+            "name": "Constrained genericity",
             "link": "http://rosettacode.org/wiki/Constrained_genericity"
         },
         {
-            "title": "Constrained random points on a circle",
+            "id": 148,
+            "name": "Constrained random points on a circle",
             "link": "http://rosettacode.org/wiki/Constrained_random_points_on_a_circle"
         },
         {
-            "title": "Continued fraction",
+            "id": 149,
+            "name": "Continued fraction",
             "link": "http://rosettacode.org/wiki/Continued_fraction"
         },
         {
-            "title": "Continued fraction/Arithmetic/Construct from rational number",
+            "id": 150,
+            "name": "Continued fraction/Arithmetic/Construct from rational number",
             "link": "http://rosettacode.org/wiki/Continued_fraction/Arithmetic/Construct_from_rational_number"
         },
         {
-            "title": "Convert decimal number to rational",
+            "id": 151,
+            "name": "Convert decimal number to rational",
             "link": "http://rosettacode.org/wiki/Convert_decimal_number_to_rational"
         },
         {
-            "title": "Convert seconds to compound duration",
+            "id": 152,
+            "name": "Convert seconds to compound duration",
             "link": "http://rosettacode.org/wiki/Convert_seconds_to_compound_duration"
         },
         {
-            "title": "Conway's Game of Life",
+            "id": 153,
+            "name": "Conway's Game of Life",
             "link": "http://rosettacode.org/wiki/Conway%27s_Game_of_Life"
         },
         {
-            "title": "Copy a string",
+            "id": 154,
+            "name": "Copy a string",
             "link": "http://rosettacode.org/wiki/Copy_a_string"
         },
         {
-            "title": "Count in factors",
+            "id": 155,
+            "name": "Count in factors",
             "link": "http://rosettacode.org/wiki/Count_in_factors"
         },
         {
-            "title": "Count in octal",
+            "id": 156,
+            "name": "Count in octal",
             "link": "http://rosettacode.org/wiki/Count_in_octal"
         },
         {
-            "title": "Count occurrences of a substring",
+            "id": 157,
+            "name": "Count occurrences of a substring",
             "link": "http://rosettacode.org/wiki/Count_occurrences_of_a_substring"
         },
         {
-            "title": "Count the coins",
+            "id": 158,
+            "name": "Count the coins",
             "link": "http://rosettacode.org/wiki/Count_the_coins"
         },
         {
-            "title": "Cramer's rule",
+            "id": 159,
+            "name": "Cramer's rule",
             "link": "http://rosettacode.org/wiki/Cramer%27s_rule"
         },
         {
-            "title": "CRC-32",
+            "id": 160,
+            "name": "CRC-32",
             "link": "http://rosettacode.org/wiki/CRC-32"
         },
         {
-            "title": "Create a file",
+            "id": 161,
+            "name": "Create a file",
             "link": "http://rosettacode.org/wiki/Create_a_file"
         },
         {
-            "title": "Create a file on magnetic tape",
+            "id": 162,
+            "name": "Create a file on magnetic tape",
             "link": "http://rosettacode.org/wiki/Create_a_file_on_magnetic_tape"
         },
         {
-            "title": "Create a two-dimensional array at runtime",
+            "id": 163,
+            "name": "Create a two-dimensional array at runtime",
             "link": "http://rosettacode.org/wiki/Create_a_two-dimensional_array_at_runtime"
         },
         {
-            "title": "Create an HTML table",
+            "id": 164,
+            "name": "Create an HTML table",
             "link": "http://rosettacode.org/wiki/Create_an_HTML_table"
         },
         {
-            "title": "Create an object at a given address",
+            "id": 165,
+            "name": "Create an object at a given address",
             "link": "http://rosettacode.org/wiki/Create_an_object_at_a_given_address"
         },
         {
-            "title": "CSV data manipulation",
+            "id": 166,
+            "name": "CSV data manipulation",
             "link": "http://rosettacode.org/wiki/CSV_data_manipulation"
         },
         {
-            "title": "CSV to HTML translation",
+            "id": 167,
+            "name": "CSV to HTML translation",
             "link": "http://rosettacode.org/wiki/CSV_to_HTML_translation"
         },
         {
-            "title": "Cumulative standard deviation",
+            "id": 168,
+            "name": "Cumulative standard deviation",
             "link": "http://rosettacode.org/wiki/Cumulative_standard_deviation"
         },
         {
-            "title": "Currying",
+            "id": 169,
+            "name": "Currying",
             "link": "http://rosettacode.org/wiki/Currying"
         },
         {
-            "title": "CUSIP",
+            "id": 170,
+            "name": "CUSIP",
             "link": "http://rosettacode.org/wiki/CUSIP"
         },
         {
-            "title": "Cut a rectangle",
+            "id": 171,
+            "name": "Cut a rectangle",
             "link": "http://rosettacode.org/wiki/Cut_a_rectangle"
         },
         {
-            "title": "Date format",
+            "id": 172,
+            "name": "Date format",
             "link": "http://rosettacode.org/wiki/Date_format"
         },
         {
-            "title": "Date manipulation",
+            "id": 173,
+            "name": "Date manipulation",
             "link": "http://rosettacode.org/wiki/Date_manipulation"
         },
         {
-            "title": "Day of the week",
+            "id": 174,
+            "name": "Day of the week",
             "link": "http://rosettacode.org/wiki/Day_of_the_week"
         },
         {
-            "title": "Deal cards for FreeCell",
+            "id": 175,
+            "name": "Deal cards for FreeCell",
             "link": "http://rosettacode.org/wiki/Deal_cards_for_FreeCell"
         },
         {
-            "title": "Death Star",
+            "id": 176,
+            "name": "Death Star",
             "link": "http://rosettacode.org/wiki/Death_Star"
         },
         {
-            "title": "Deconvolution/1D",
+            "id": 177,
+            "name": "Deconvolution/1D",
             "link": "http://rosettacode.org/wiki/Deconvolution/1D"
         },
         {
-            "title": "Deconvolution/2D+",
+            "id": 178,
+            "name": "Deconvolution/2D+",
             "link": "http://rosettacode.org/wiki/Deconvolution/2D%2B"
         },
         {
-            "title": "Deepcopy",
+            "id": 179,
+            "name": "Deepcopy",
             "link": "http://rosettacode.org/wiki/Deepcopy"
         },
         {
-            "title": "Define a primitive data type",
+            "id": 180,
+            "name": "Define a primitive data type",
             "link": "http://rosettacode.org/wiki/Define_a_primitive_data_type"
         },
         {
-            "title": "Delegates",
+            "id": 181,
+            "name": "Delegates",
             "link": "http://rosettacode.org/wiki/Delegates"
         },
         {
-            "title": "Delete a file",
+            "id": 182,
+            "name": "Delete a file",
             "link": "http://rosettacode.org/wiki/Delete_a_file"
         },
         {
-            "title": "Department Numbers",
+            "id": 183,
+            "name": "Department Numbers",
             "link": "http://rosettacode.org/wiki/Department_Numbers"
         },
         {
-            "title": "Detect division by zero",
+            "id": 184,
+            "name": "Detect division by zero",
             "link": "http://rosettacode.org/wiki/Detect_division_by_zero"
         },
         {
-            "title": "Determine if a string is numeric",
+            "id": 185,
+            "name": "Determine if a string is numeric",
             "link": "http://rosettacode.org/wiki/Determine_if_a_string_is_numeric"
         },
         {
-            "title": "Determine if only one instance is running",
+            "id": 186,
+            "name": "Determine if only one instance is running",
             "link": "http://rosettacode.org/wiki/Determine_if_only_one_instance_is_running"
         },
         {
-            "title": "Digital root",
+            "id": 187,
+            "name": "Digital root",
             "link": "http://rosettacode.org/wiki/Digital_root"
         },
         {
-            "title": "Digital root/Multiplicative digital root",
+            "id": 188,
+            "name": "Digital root/Multiplicative digital root",
             "link": "http://rosettacode.org/wiki/Digital_root/Multiplicative_digital_root"
         },
         {
-            "title": "Dinesman's multiple-dwelling problem",
+            "id": 189,
+            "name": "Dinesman's multiple-dwelling problem",
             "link": "http://rosettacode.org/wiki/Dinesman%27s_multiple-dwelling_problem"
         },
         {
-            "title": "Dining philosophers",
+            "id": 190,
+            "name": "Dining philosophers",
             "link": "http://rosettacode.org/wiki/Dining_philosophers"
         },
         {
-            "title": "Discordian date",
+            "id": 191,
+            "name": "Discordian date",
             "link": "http://rosettacode.org/wiki/Discordian_date"
         },
         {
-            "title": "Distributed programming",
+            "id": 192,
+            "name": "Distributed programming",
             "link": "http://rosettacode.org/wiki/Distributed_programming"
         },
         {
-            "title": "DNS query",
+            "id": 193,
+            "name": "DNS query",
             "link": "http://rosettacode.org/wiki/DNS_query"
         },
         {
-            "title": "Documentation",
+            "id": 194,
+            "name": "Documentation",
             "link": "http://rosettacode.org/wiki/Documentation"
         },
         {
-            "title": "Dot product",
+            "id": 195,
+            "name": "Dot product",
             "link": "http://rosettacode.org/wiki/Dot_product"
         },
         {
-            "title": "Doubly-linked list/Definition",
+            "id": 196,
+            "name": "Doubly-linked list/Definition",
             "link": "http://rosettacode.org/wiki/Doubly-linked_list/Definition"
         },
         {
-            "title": "Doubly-linked list/Element definition",
+            "id": 197,
+            "name": "Doubly-linked list/Element definition",
             "link": "http://rosettacode.org/wiki/Doubly-linked_list/Element_definition"
         },
         {
-            "title": "Doubly-linked list/Element insertion",
+            "id": 198,
+            "name": "Doubly-linked list/Element insertion",
             "link": "http://rosettacode.org/wiki/Doubly-linked_list/Element_insertion"
         },
         {
-            "title": "Doubly-linked list/Traversal",
+            "id": 199,
+            "name": "Doubly-linked list/Traversal",
             "link": "http://rosettacode.org/wiki/Doubly-linked_list/Traversal"
         },
         {
-            "title": "Dragon curve",
+            "id": 200,
+            "name": "Dragon curve",
             "link": "http://rosettacode.org/wiki/Dragon_curve"
         },
         {
-            "title": "Draw a clock",
+            "id": 201,
+            "name": "Draw a clock",
             "link": "http://rosettacode.org/wiki/Draw_a_clock"
         },
         {
-            "title": "Draw a cuboid",
+            "id": 202,
+            "name": "Draw a cuboid",
             "link": "http://rosettacode.org/wiki/Draw_a_cuboid"
         },
         {
-            "title": "Draw a rotating cube",
+            "id": 203,
+            "name": "Draw a rotating cube",
             "link": "http://rosettacode.org/wiki/Draw_a_rotating_cube"
         },
         {
-            "title": "Draw a sphere",
+            "id": 204,
+            "name": "Draw a sphere",
             "link": "http://rosettacode.org/wiki/Draw_a_sphere"
         },
         {
-            "title": "Dutch national flag problem",
+            "id": 205,
+            "name": "Dutch national flag problem",
             "link": "http://rosettacode.org/wiki/Dutch_national_flag_problem"
         },
         {
-            "title": "Dynamic variable names",
+            "id": 206,
+            "name": "Dynamic variable names",
             "link": "http://rosettacode.org/wiki/Dynamic_variable_names"
         },
         {
-            "title": "Echo server",
+            "id": 207,
+            "name": "Echo server",
             "link": "http://rosettacode.org/wiki/Echo_server"
         },
         {
-            "title": "Egyptian division",
+            "id": 208,
+            "name": "Egyptian division",
             "link": "http://rosettacode.org/wiki/Egyptian_division"
         },
         {
-            "title": "Element-wise operations",
+            "id": 209,
+            "name": "Egyptian fractions",
+            "link": "http://rosettacode.org/wiki/Egyptian_fractions"
+        },
+        {
+            "id": 210,
+            "name": "Element-wise operations",
             "link": "http://rosettacode.org/wiki/Element-wise_operations"
         },
         {
-            "title": "Elementary cellular automaton",
+            "id": 211,
+            "name": "Elementary cellular automaton",
             "link": "http://rosettacode.org/wiki/Elementary_cellular_automaton"
         },
         {
-            "title": "Emirp primes",
+            "id": 212,
+            "name": "Emirp primes",
             "link": "http://rosettacode.org/wiki/Emirp_primes"
         },
         {
-            "title": "Empty directory",
+            "id": 213,
+            "name": "Empty directory",
             "link": "http://rosettacode.org/wiki/Empty_directory"
         },
         {
-            "title": "Empty program",
+            "id": 214,
+            "name": "Empty program",
             "link": "http://rosettacode.org/wiki/Empty_program"
         },
         {
-            "title": "Empty string",
+            "id": 215,
+            "name": "Empty string",
             "link": "http://rosettacode.org/wiki/Empty_string"
         },
         {
-            "title": "Enforced immutability",
+            "id": 216,
+            "name": "Enforced immutability",
             "link": "http://rosettacode.org/wiki/Enforced_immutability"
         },
         {
-            "title": "Entropy",
+            "id": 217,
+            "name": "Entropy",
             "link": "http://rosettacode.org/wiki/Entropy"
         },
         {
-            "title": "Enumerations",
+            "id": 218,
+            "name": "Enumerations",
             "link": "http://rosettacode.org/wiki/Enumerations"
         },
         {
-            "title": "Environment variables",
+            "id": 219,
+            "name": "Environment variables",
             "link": "http://rosettacode.org/wiki/Environment_variables"
         },
         {
-            "title": "Equilibrium index",
+            "id": 220,
+            "name": "Equilibrium index",
             "link": "http://rosettacode.org/wiki/Equilibrium_index"
         },
         {
-            "title": "Ethiopian multiplication",
+            "id": 221,
+            "name": "Ethiopian multiplication",
             "link": "http://rosettacode.org/wiki/Ethiopian_multiplication"
         },
         {
-            "title": "Euler method",
+            "id": 222,
+            "name": "Euler method",
             "link": "http://rosettacode.org/wiki/Euler_method"
         },
         {
-            "title": "Euler's sum of powers conjecture",
+            "id": 223,
+            "name": "Euler's sum of powers conjecture",
             "link": "http://rosettacode.org/wiki/Euler%27s_sum_of_powers_conjecture"
         },
         {
-            "title": "Evaluate binomial coefficients",
+            "id": 224,
+            "name": "Evaluate binomial coefficients",
             "link": "http://rosettacode.org/wiki/Evaluate_binomial_coefficients"
         },
         {
-            "title": "Even or odd",
+            "id": 225,
+            "name": "Even or odd",
             "link": "http://rosettacode.org/wiki/Even_or_odd"
         },
         {
-            "title": "Events",
+            "id": 226,
+            "name": "Events",
             "link": "http://rosettacode.org/wiki/Events"
         },
         {
-            "title": "Evolutionary algorithm",
+            "id": 227,
+            "name": "Evolutionary algorithm",
             "link": "http://rosettacode.org/wiki/Evolutionary_algorithm"
         },
         {
-            "title": "Exceptions",
+            "id": 228,
+            "name": "Exceptions",
             "link": "http://rosettacode.org/wiki/Exceptions"
         },
         {
-            "title": "Exceptions/Catch an exception thrown in a nested call",
+            "id": 229,
+            "name": "Exceptions/Catch an exception thrown in a nested call",
             "link": "http://rosettacode.org/wiki/Exceptions/Catch_an_exception_thrown_in_a_nested_call"
         },
         {
-            "title": "Executable library",
+            "id": 230,
+            "name": "Executable library",
             "link": "http://rosettacode.org/wiki/Executable_library"
         },
         {
-            "title": "Execute a Markov algorithm",
+            "id": 231,
+            "name": "Execute a Markov algorithm",
             "link": "http://rosettacode.org/wiki/Execute_a_Markov_algorithm"
         },
         {
-            "title": "Execute a system command",
+            "id": 232,
+            "name": "Execute a system command",
             "link": "http://rosettacode.org/wiki/Execute_a_system_command"
         },
         {
-            "title": "Execute Brain****",
+            "id": 233,
+            "name": "Execute Brain****",
             "link": "http://rosettacode.org/wiki/Execute_Brain****"
         },
         {
-            "title": "Execute HQ9+",
+            "id": 234,
+            "name": "Execute HQ9+",
             "link": "http://rosettacode.org/wiki/Execute_HQ9%2B"
         },
         {
-            "title": "Execute SNUSP",
+            "id": 235,
+            "name": "Execute SNUSP",
             "link": "http://rosettacode.org/wiki/Execute_SNUSP"
         },
         {
-            "title": "Exponentiation operator",
+            "id": 236,
+            "name": "Exponentiation operator",
             "link": "http://rosettacode.org/wiki/Exponentiation_operator"
         },
         {
-            "title": "Exponentiation order",
+            "id": 237,
+            "name": "Exponentiation order",
             "link": "http://rosettacode.org/wiki/Exponentiation_order"
         },
         {
-            "title": "Extend your language",
+            "id": 238,
+            "name": "Extend your language",
             "link": "http://rosettacode.org/wiki/Extend_your_language"
         },
         {
-            "title": "Extensible prime generator",
+            "id": 239,
+            "name": "Extensible prime generator",
             "link": "http://rosettacode.org/wiki/Extensible_prime_generator"
         },
         {
-            "title": "Extreme floating point values",
+            "id": 240,
+            "name": "Extreme floating point values",
             "link": "http://rosettacode.org/wiki/Extreme_floating_point_values"
         },
         {
-            "title": "Factorial",
+            "id": 241,
+            "name": "Factorial",
             "link": "http://rosettacode.org/wiki/Factorial"
         },
         {
-            "title": "Factors of a Mersenne number",
+            "id": 242,
+            "name": "Factors of a Mersenne number",
             "link": "http://rosettacode.org/wiki/Factors_of_a_Mersenne_number"
         },
         {
-            "title": "Factors of an integer",
+            "id": 243,
+            "name": "Factors of an integer",
             "link": "http://rosettacode.org/wiki/Factors_of_an_integer"
         },
         {
-            "title": "Farey sequence",
+            "id": 244,
+            "name": "Farey sequence",
             "link": "http://rosettacode.org/wiki/Farey_sequence"
         },
         {
-            "title": "Fast Fourier transform",
+            "id": 245,
+            "name": "Fast Fourier transform",
             "link": "http://rosettacode.org/wiki/Fast_Fourier_transform"
         },
         {
-            "title": "FASTA format",
+            "id": 246,
+            "name": "FASTA format",
             "link": "http://rosettacode.org/wiki/FASTA_format"
         },
         {
-            "title": "Fibonacci n-step number sequences",
+            "id": 247,
+            "name": "Fibonacci n-step number sequences",
             "link": "http://rosettacode.org/wiki/Fibonacci_n-step_number_sequences"
         },
         {
-            "title": "Fibonacci sequence",
+            "id": 248,
+            "name": "Fibonacci sequence",
             "link": "http://rosettacode.org/wiki/Fibonacci_sequence"
         },
         {
-            "title": "Fibonacci word",
+            "id": 249,
+            "name": "Fibonacci word",
             "link": "http://rosettacode.org/wiki/Fibonacci_word"
         },
         {
-            "title": "Fibonacci word/fractal",
+            "id": 250,
+            "name": "Fibonacci word/fractal",
             "link": "http://rosettacode.org/wiki/Fibonacci_word/fractal"
         },
         {
-            "title": "File input/output",
+            "id": 251,
+            "name": "File input/output",
             "link": "http://rosettacode.org/wiki/File_input/output"
         },
         {
-            "title": "File modification time",
+            "id": 252,
+            "name": "File modification time",
             "link": "http://rosettacode.org/wiki/File_modification_time"
         },
         {
-            "title": "File size",
+            "id": 253,
+            "name": "File size",
             "link": "http://rosettacode.org/wiki/File_size"
         },
         {
-            "title": "Filter",
+            "id": 254,
+            "name": "Filter",
             "link": "http://rosettacode.org/wiki/Filter"
         },
         {
-            "title": "Find common directory path",
+            "id": 255,
+            "name": "Find common directory path",
             "link": "http://rosettacode.org/wiki/Find_common_directory_path"
         },
         {
-            "title": "Find largest left truncatable prime in a given base",
+            "id": 256,
+            "name": "Find largest left truncatable prime in a given base",
             "link": "http://rosettacode.org/wiki/Find_largest_left_truncatable_prime_in_a_given_base"
         },
         {
-            "title": "Find limit of recursion",
+            "id": 257,
+            "name": "Find limit of recursion",
             "link": "http://rosettacode.org/wiki/Find_limit_of_recursion"
         },
         {
-            "title": "Find palindromic numbers in both binary and ternary bases",
+            "id": 258,
+            "name": "Find palindromic numbers in both binary and ternary bases",
             "link": "http://rosettacode.org/wiki/Find_palindromic_numbers_in_both_binary_and_ternary_bases"
         },
         {
-            "title": "Find the intersection of a line with a plane",
+            "id": 259,
+            "name": "Find the intersection of a line with a plane",
             "link": "http://rosettacode.org/wiki/Find_the_intersection_of_a_line_with_a_plane"
         },
         {
-            "title": "Find the intersection of two lines",
+            "id": 260,
+            "name": "Find the intersection of two lines",
             "link": "http://rosettacode.org/wiki/Find_the_intersection_of_two_lines"
         },
         {
-            "title": "Find the last Sunday of each month",
+            "id": 261,
+            "name": "Find the last Sunday of each month",
             "link": "http://rosettacode.org/wiki/Find_the_last_Sunday_of_each_month"
         },
         {
-            "title": "Find the missing permutation",
+            "id": 262,
+            "name": "Find the missing permutation",
             "link": "http://rosettacode.org/wiki/Find_the_missing_permutation"
         },
         {
-            "title": "First class environments",
+            "id": 263,
+            "name": "First class environments",
             "link": "http://rosettacode.org/wiki/First_class_environments"
         },
         {
-            "title": "First-class functions",
+            "id": 264,
+            "name": "First-class functions",
             "link": "http://rosettacode.org/wiki/First-class_functions"
         },
         {
-            "title": "First-class functions/Use numbers analogously",
+            "id": 265,
+            "name": "First-class functions/Use numbers analogously",
             "link": "http://rosettacode.org/wiki/First-class_functions/Use_numbers_analogously"
         },
         {
-            "title": "Five weekends",
+            "id": 266,
+            "name": "Five weekends",
             "link": "http://rosettacode.org/wiki/Five_weekends"
         },
         {
-            "title": "FizzBuzz",
+            "id": 267,
+            "name": "FizzBuzz",
             "link": "http://rosettacode.org/wiki/FizzBuzz"
         },
         {
-            "title": "Flatten a list",
+            "id": 268,
+            "name": "Flatten a list",
             "link": "http://rosettacode.org/wiki/Flatten_a_list"
         },
         {
-            "title": "Flipping bits game",
+            "id": 269,
+            "name": "Flipping bits game",
             "link": "http://rosettacode.org/wiki/Flipping_bits_game"
         },
         {
-            "title": "Flow-control structures",
+            "id": 270,
+            "name": "Flow-control structures",
             "link": "http://rosettacode.org/wiki/Flow-control_structures"
         },
         {
-            "title": "Floyd's triangle",
+            "id": 271,
+            "name": "Floyd's triangle",
             "link": "http://rosettacode.org/wiki/Floyd%27s_triangle"
         },
         {
-            "title": "Floyd-Warshall algorithm",
+            "id": 272,
+            "name": "Floyd-Warshall algorithm",
             "link": "http://rosettacode.org/wiki/Floyd-Warshall_algorithm"
         },
         {
-            "title": "Forest fire",
+            "id": 273,
+            "name": "Forest fire",
             "link": "http://rosettacode.org/wiki/Forest_fire"
         },
         {
-            "title": "Fork",
+            "id": 274,
+            "name": "Fork",
             "link": "http://rosettacode.org/wiki/Fork"
         },
         {
-            "title": "Formal power series",
+            "id": 275,
+            "name": "Formal power series",
             "link": "http://rosettacode.org/wiki/Formal_power_series"
         },
         {
-            "title": "Formatted numeric output",
+            "id": 276,
+            "name": "Formatted numeric output",
             "link": "http://rosettacode.org/wiki/Formatted_numeric_output"
         },
         {
-            "title": "Forward difference",
+            "id": 277,
+            "name": "Forward difference",
             "link": "http://rosettacode.org/wiki/Forward_difference"
         },
         {
-            "title": "Four bit adder",
+            "id": 278,
+            "name": "Four bit adder",
             "link": "http://rosettacode.org/wiki/Four_bit_adder"
         },
         {
-            "title": "Fractal tree",
+            "id": 279,
+            "name": "Fractal tree",
             "link": "http://rosettacode.org/wiki/Fractal_tree"
         },
         {
-            "title": "Fractran",
+            "id": 280,
+            "name": "Fractran",
             "link": "http://rosettacode.org/wiki/Fractran"
         },
         {
-            "title": "FTP",
+            "id": 281,
+            "name": "FTP",
             "link": "http://rosettacode.org/wiki/FTP"
         },
         {
-            "title": "Function composition",
+            "id": 282,
+            "name": "Function composition",
             "link": "http://rosettacode.org/wiki/Function_composition"
         },
         {
-            "title": "Function definition",
+            "id": 283,
+            "name": "Function definition",
             "link": "http://rosettacode.org/wiki/Function_definition"
         },
         {
-            "title": "Function frequency",
+            "id": 284,
+            "name": "Function frequency",
             "link": "http://rosettacode.org/wiki/Function_frequency"
         },
         {
-            "title": "Function prototype",
+            "id": 285,
+            "name": "Function prototype",
             "link": "http://rosettacode.org/wiki/Function_prototype"
         },
         {
-            "title": "Galton box animation",
+            "id": 286,
+            "name": "Galton box animation",
             "link": "http://rosettacode.org/wiki/Galton_box_animation"
         },
         {
-            "title": "Gamma function",
+            "id": 287,
+            "name": "Gamma function",
             "link": "http://rosettacode.org/wiki/Gamma_function"
         },
         {
-            "title": "Gaussian elimination",
+            "id": 288,
+            "name": "Gaussian elimination",
             "link": "http://rosettacode.org/wiki/Gaussian_elimination"
         },
         {
-            "title": "General FizzBuzz",
+            "id": 289,
+            "name": "General FizzBuzz",
             "link": "http://rosettacode.org/wiki/General_FizzBuzz"
         },
         {
-            "title": "Generate Chess960 starting position",
+            "id": 290,
+            "name": "Generate Chess960 starting position",
             "link": "http://rosettacode.org/wiki/Generate_Chess960_starting_position"
         },
         {
-            "title": "Generate lower case ASCII alphabet",
+            "id": 291,
+            "name": "Generate lower case ASCII alphabet",
             "link": "http://rosettacode.org/wiki/Generate_lower_case_ASCII_alphabet"
         },
         {
-            "title": "Generator/Exponential",
+            "id": 292,
+            "name": "Generator/Exponential",
             "link": "http://rosettacode.org/wiki/Generator/Exponential"
         },
         {
-            "title": "Generic swap",
+            "id": 293,
+            "name": "Generic swap",
             "link": "http://rosettacode.org/wiki/Generic_swap"
         },
         {
-            "title": "Get system command output",
+            "id": 294,
+            "name": "Get system command output",
             "link": "http://rosettacode.org/wiki/Get_system_command_output"
         },
         {
-            "title": "Globally replace text in several files",
+            "id": 295,
+            "name": "Globally replace text in several files",
             "link": "http://rosettacode.org/wiki/Globally_replace_text_in_several_files"
         },
         {
-            "title": "Go Fish",
+            "id": 296,
+            "name": "Go Fish",
             "link": "http://rosettacode.org/wiki/Go_Fish"
         },
         {
-            "title": "Gray code",
+            "id": 297,
+            "name": "Gray code",
             "link": "http://rosettacode.org/wiki/Gray_code"
         },
         {
-            "title": "Grayscale image",
+            "id": 298,
+            "name": "Grayscale image",
             "link": "http://rosettacode.org/wiki/Grayscale_image"
         },
         {
-            "title": "Greatest common divisor",
+            "id": 299,
+            "name": "Greatest common divisor",
             "link": "http://rosettacode.org/wiki/Greatest_common_divisor"
         },
         {
-            "title": "Greatest element of a list",
+            "id": 300,
+            "name": "Greatest element of a list",
             "link": "http://rosettacode.org/wiki/Greatest_element_of_a_list"
         },
         {
-            "title": "Greatest subsequential sum",
+            "id": 301,
+            "name": "Greatest subsequential sum",
             "link": "http://rosettacode.org/wiki/Greatest_subsequential_sum"
         },
         {
-            "title": "Greyscale bars/Display",
+            "id": 302,
+            "name": "Greyscale bars/Display",
             "link": "http://rosettacode.org/wiki/Greyscale_bars/Display"
         },
         {
-            "title": "Guess the number",
+            "id": 303,
+            "name": "Guess the number",
             "link": "http://rosettacode.org/wiki/Guess_the_number"
         },
         {
-            "title": "Guess the number/With feedback",
+            "id": 304,
+            "name": "Guess the number/With feedback",
             "link": "http://rosettacode.org/wiki/Guess_the_number/With_feedback"
         },
         {
-            "title": "Guess the number/With feedback (player)",
+            "id": 305,
+            "name": "Guess the number/With feedback (player)",
             "link": "http://rosettacode.org/wiki/Guess_the_number/With_feedback_(player)"
         },
         {
-            "title": "GUI component interaction",
+            "id": 306,
+            "name": "GUI component interaction",
             "link": "http://rosettacode.org/wiki/GUI_component_interaction"
         },
         {
-            "title": "GUI enabling/disabling of controls",
+            "id": 307,
+            "name": "GUI enabling/disabling of controls",
             "link": "http://rosettacode.org/wiki/GUI_enabling/disabling_of_controls"
         },
         {
-            "title": "GUI/Maximum window dimensions",
+            "id": 308,
+            "name": "GUI/Maximum window dimensions",
             "link": "http://rosettacode.org/wiki/GUI/Maximum_window_dimensions"
         },
         {
-            "title": "Hailstone sequence",
+            "id": 309,
+            "name": "Hailstone sequence",
             "link": "http://rosettacode.org/wiki/Hailstone_sequence"
         },
         {
-            "title": "Hamming numbers",
+            "id": 310,
+            "name": "Hamming numbers",
             "link": "http://rosettacode.org/wiki/Hamming_numbers"
         },
         {
-            "title": "Handle a signal",
+            "id": 311,
+            "name": "Handle a signal",
             "link": "http://rosettacode.org/wiki/Handle_a_signal"
         },
         {
-            "title": "Happy numbers",
+            "id": 312,
+            "name": "Happy numbers",
             "link": "http://rosettacode.org/wiki/Happy_numbers"
         },
         {
-            "title": "Harshad or Niven series",
+            "id": 313,
+            "name": "Harshad or Niven series",
             "link": "http://rosettacode.org/wiki/Harshad_or_Niven_series"
         },
         {
-            "title": "Hash from two arrays",
+            "id": 314,
+            "name": "Hash from two arrays",
             "link": "http://rosettacode.org/wiki/Hash_from_two_arrays"
         },
         {
-            "title": "Hash join",
+            "id": 315,
+            "name": "Hash join",
             "link": "http://rosettacode.org/wiki/Hash_join"
         },
         {
-            "title": "Haversine formula",
+            "id": 316,
+            "name": "Haversine formula",
             "link": "http://rosettacode.org/wiki/Haversine_formula"
         },
         {
-            "title": "Hello world/Graphical",
+            "id": 317,
+            "name": "Hello world/Graphical",
             "link": "http://rosettacode.org/wiki/Hello_world/Graphical"
         },
         {
-            "title": "Hello world/Line printer",
+            "id": 318,
+            "name": "Hello world/Line printer",
             "link": "http://rosettacode.org/wiki/Hello_world/Line_printer"
         },
         {
-            "title": "Hello world/Newbie",
+            "id": 319,
+            "name": "Hello world/Newbie",
             "link": "http://rosettacode.org/wiki/Hello_world/Newbie"
         },
         {
-            "title": "Hello world/Newline omission",
+            "id": 320,
+            "name": "Hello world/Newline omission",
             "link": "http://rosettacode.org/wiki/Hello_world/Newline_omission"
         },
         {
-            "title": "Hello world/Standard error",
+            "id": 321,
+            "name": "Hello world/Standard error",
             "link": "http://rosettacode.org/wiki/Hello_world/Standard_error"
         },
         {
-            "title": "Hello world/Text",
+            "id": 322,
+            "name": "Hello world/Text",
             "link": "http://rosettacode.org/wiki/Hello_world/Text"
         },
         {
-            "title": "Hello world/Web server",
+            "id": 323,
+            "name": "Hello world/Web server",
             "link": "http://rosettacode.org/wiki/Hello_world/Web_server"
         },
         {
-            "title": "Here document",
+            "id": 324,
+            "name": "Here document",
             "link": "http://rosettacode.org/wiki/Here_document"
         },
         {
-            "title": "Heronian triangles",
+            "id": 325,
+            "name": "Heronian triangles",
             "link": "http://rosettacode.org/wiki/Heronian_triangles"
         },
         {
-            "title": "Hickerson series of almost integers",
+            "id": 326,
+            "name": "Hickerson series of almost integers",
             "link": "http://rosettacode.org/wiki/Hickerson_series_of_almost_integers"
         },
         {
-            "title": "Higher-order functions",
+            "id": 327,
+            "name": "Higher-order functions",
             "link": "http://rosettacode.org/wiki/Higher-order_functions"
         },
         {
-            "title": "History variables",
+            "id": 328,
+            "name": "History variables",
             "link": "http://rosettacode.org/wiki/History_variables"
         },
         {
-            "title": "Hofstadter Figure-Figure sequences",
+            "id": 329,
+            "name": "Hofstadter Figure-Figure sequences",
             "link": "http://rosettacode.org/wiki/Hofstadter_Figure-Figure_sequences"
         },
         {
-            "title": "Hofstadter Q sequence",
+            "id": 330,
+            "name": "Hofstadter Q sequence",
             "link": "http://rosettacode.org/wiki/Hofstadter_Q_sequence"
         },
         {
-            "title": "Hofstadter-Conway $10,000 sequence",
+            "id": 331,
+            "name": "Hofstadter-Conway $10,000 sequence",
             "link": "http://rosettacode.org/wiki/Hofstadter-Conway_$10,000_sequence"
         },
         {
-            "title": "Holidays related to Easter",
+            "id": 332,
+            "name": "Holidays related to Easter",
             "link": "http://rosettacode.org/wiki/Holidays_related_to_Easter"
         },
         {
-            "title": "Honeycombs",
+            "id": 333,
+            "name": "Honeycombs",
             "link": "http://rosettacode.org/wiki/Honeycombs"
         },
         {
-            "title": "Horizontal sundial calculations",
+            "id": 334,
+            "name": "Horizontal sundial calculations",
             "link": "http://rosettacode.org/wiki/Horizontal_sundial_calculations"
         },
         {
-            "title": "Horner's rule for polynomial evaluation",
+            "id": 335,
+            "name": "Horner's rule for polynomial evaluation",
             "link": "http://rosettacode.org/wiki/Horner%27s_rule_for_polynomial_evaluation"
         },
         {
-            "title": "Host introspection",
+            "id": 336,
+            "name": "Host introspection",
             "link": "http://rosettacode.org/wiki/Host_introspection"
         },
         {
-            "title": "Hostname",
+            "id": 337,
+            "name": "Hostname",
             "link": "http://rosettacode.org/wiki/Hostname"
         },
         {
-            "title": "Hough transform",
+            "id": 338,
+            "name": "Hough transform",
             "link": "http://rosettacode.org/wiki/Hough_transform"
         },
         {
-            "title": "HTTP",
+            "id": 339,
+            "name": "HTTP",
             "link": "http://rosettacode.org/wiki/HTTP"
         },
         {
-            "title": "HTTPS",
+            "id": 340,
+            "name": "HTTPS",
             "link": "http://rosettacode.org/wiki/HTTPS"
         },
         {
-            "title": "HTTPS/Authenticated",
+            "id": 341,
+            "name": "HTTPS/Authenticated",
             "link": "http://rosettacode.org/wiki/HTTPS/Authenticated"
         },
         {
-            "title": "HTTPS/Client-authenticated",
+            "id": 342,
+            "name": "HTTPS/Client-authenticated",
             "link": "http://rosettacode.org/wiki/HTTPS/Client-authenticated"
         },
         {
-            "title": "Huffman coding",
+            "id": 343,
+            "name": "Huffman coding",
             "link": "http://rosettacode.org/wiki/Huffman_coding"
         },
         {
-            "title": "Hunt The Wumpus",
+            "id": 344,
+            "name": "Hunt The Wumpus",
             "link": "http://rosettacode.org/wiki/Hunt_The_Wumpus"
         },
         {
-            "title": "I before E except after C",
+            "id": 345,
+            "name": "I before E except after C",
             "link": "http://rosettacode.org/wiki/I_before_E_except_after_C"
         },
         {
-            "title": "IBAN",
+            "id": 346,
+            "name": "IBAN",
             "link": "http://rosettacode.org/wiki/IBAN"
         },
         {
-            "title": "Identity matrix",
+            "id": 347,
+            "name": "Identity matrix",
             "link": "http://rosettacode.org/wiki/Identity_matrix"
         },
         {
-            "title": "Image convolution",
+            "id": 348,
+            "name": "Image convolution",
             "link": "http://rosettacode.org/wiki/Image_convolution"
         },
         {
-            "title": "Image noise",
+            "id": 349,
+            "name": "Image noise",
             "link": "http://rosettacode.org/wiki/Image_noise"
         },
         {
-            "title": "Include a file",
+            "id": 350,
+            "name": "Include a file",
             "link": "http://rosettacode.org/wiki/Include_a_file"
         },
         {
-            "title": "Increment a numerical string",
+            "id": 351,
+            "name": "Increment a numerical string",
             "link": "http://rosettacode.org/wiki/Increment_a_numerical_string"
         },
         {
-            "title": "Infinity",
+            "id": 352,
+            "name": "Infinity",
             "link": "http://rosettacode.org/wiki/Infinity"
         },
         {
-            "title": "Inheritance/Multiple",
+            "id": 353,
+            "name": "Inheritance/Multiple",
             "link": "http://rosettacode.org/wiki/Inheritance/Multiple"
         },
         {
-            "title": "Inheritance/Single",
+            "id": 354,
+            "name": "Inheritance/Single",
             "link": "http://rosettacode.org/wiki/Inheritance/Single"
         },
         {
-            "title": "Input loop",
+            "id": 355,
+            "name": "Input loop",
             "link": "http://rosettacode.org/wiki/Input_loop"
         },
         {
-            "title": "Integer comparison",
+            "id": 356,
+            "name": "Integer comparison",
             "link": "http://rosettacode.org/wiki/Integer_comparison"
         },
         {
-            "title": "Integer overflow",
+            "id": 357,
+            "name": "Integer overflow",
             "link": "http://rosettacode.org/wiki/Integer_overflow"
         },
         {
-            "title": "Integer sequence",
+            "id": 358,
+            "name": "Integer sequence",
             "link": "http://rosettacode.org/wiki/Integer_sequence"
         },
         {
-            "title": "Interactive programming",
+            "id": 359,
+            "name": "Interactive programming",
             "link": "http://rosettacode.org/wiki/Interactive_programming"
         },
         {
-            "title": "Introspection",
+            "id": 360,
+            "name": "Introspection",
             "link": "http://rosettacode.org/wiki/Introspection"
         },
         {
-            "title": "Inverted index",
+            "id": 361,
+            "name": "Inverted index",
             "link": "http://rosettacode.org/wiki/Inverted_index"
         },
         {
-            "title": "Inverted syntax",
+            "id": 362,
+            "name": "Inverted syntax",
             "link": "http://rosettacode.org/wiki/Inverted_syntax"
         },
         {
-            "title": "Iterated digits squaring",
+            "id": 363,
+            "name": "Iterated digits squaring",
             "link": "http://rosettacode.org/wiki/Iterated_digits_squaring"
         },
         {
-            "title": "Jaro distance",
+            "id": 364,
+            "name": "Jaro distance",
             "link": "http://rosettacode.org/wiki/Jaro_distance"
         },
         {
-            "title": "Jensen's Device",
+            "id": 365,
+            "name": "Jensen's Device",
             "link": "http://rosettacode.org/wiki/Jensen%27s_Device"
         },
         {
-            "title": "JortSort",
+            "id": 366,
+            "name": "JortSort",
             "link": "http://rosettacode.org/wiki/JortSort"
         },
         {
-            "title": "Josephus problem",
+            "id": 367,
+            "name": "Josephus problem",
             "link": "http://rosettacode.org/wiki/Josephus_problem"
         },
         {
-            "title": "Joystick position",
+            "id": 368,
+            "name": "Joystick position",
             "link": "http://rosettacode.org/wiki/Joystick_position"
         },
         {
-            "title": "JSON",
+            "id": 369,
+            "name": "JSON",
             "link": "http://rosettacode.org/wiki/JSON"
         },
         {
-            "title": "Julia set",
+            "id": 370,
+            "name": "Julia set",
             "link": "http://rosettacode.org/wiki/Julia_set"
         },
         {
-            "title": "Jump anywhere",
+            "id": 371,
+            "name": "Jump anywhere",
             "link": "http://rosettacode.org/wiki/Jump_anywhere"
         },
         {
-            "title": "K-d tree",
+            "id": 372,
+            "name": "K-d tree",
             "link": "http://rosettacode.org/wiki/K-d_tree"
         },
         {
-            "title": "K-means++ clustering",
+            "id": 373,
+            "name": "K-means++ clustering",
             "link": "http://rosettacode.org/wiki/K-means%2B%2B_clustering"
         },
         {
-            "title": "Kaprekar numbers",
+            "id": 374,
+            "name": "Kaprekar numbers",
             "link": "http://rosettacode.org/wiki/Kaprekar_numbers"
         },
         {
-            "title": "Keyboard input/Flush the keyboard buffer",
+            "id": 375,
+            "name": "Keyboard input/Flush the keyboard buffer",
             "link": "http://rosettacode.org/wiki/Keyboard_input/Flush_the_keyboard_buffer"
         },
         {
-            "title": "Keyboard input/Keypress check",
+            "id": 376,
+            "name": "Keyboard input/Keypress check",
             "link": "http://rosettacode.org/wiki/Keyboard_input/Keypress_check"
         },
         {
-            "title": "Keyboard input/Obtain a Y or N response",
+            "id": 377,
+            "name": "Keyboard input/Obtain a Y or N response",
             "link": "http://rosettacode.org/wiki/Keyboard_input/Obtain_a_Y_or_N_response"
         },
         {
-            "title": "Keyboard macros",
+            "id": 378,
+            "name": "Keyboard macros",
             "link": "http://rosettacode.org/wiki/Keyboard_macros"
         },
         {
-            "title": "Knapsack problem/0-1",
+            "id": 379,
+            "name": "Knapsack problem/0-1",
             "link": "http://rosettacode.org/wiki/Knapsack_problem/0-1"
         },
         {
-            "title": "Knapsack problem/Bounded",
+            "id": 380,
+            "name": "Knapsack problem/Bounded",
             "link": "http://rosettacode.org/wiki/Knapsack_problem/Bounded"
         },
         {
-            "title": "Knapsack problem/Continuous",
+            "id": 381,
+            "name": "Knapsack problem/Continuous",
             "link": "http://rosettacode.org/wiki/Knapsack_problem/Continuous"
         },
         {
-            "title": "Knapsack problem/Unbounded",
+            "id": 382,
+            "name": "Knapsack problem/Unbounded",
             "link": "http://rosettacode.org/wiki/Knapsack_problem/Unbounded"
         },
         {
-            "title": "Knight's tour",
+            "id": 383,
+            "name": "Knight's tour",
             "link": "http://rosettacode.org/wiki/Knight%27s_tour"
         },
         {
-            "title": "Knuth shuffle",
+            "id": 384,
+            "name": "Knuth shuffle",
             "link": "http://rosettacode.org/wiki/Knuth_shuffle"
         },
         {
-            "title": "Knuth's algorithm S",
+            "id": 385,
+            "name": "Knuth's algorithm S",
             "link": "http://rosettacode.org/wiki/Knuth%27s_algorithm_S"
         },
         {
-            "title": "Kronecker product",
+            "id": 386,
+            "name": "Kronecker product",
             "link": "http://rosettacode.org/wiki/Kronecker_product"
         },
         {
-            "title": "Kronecker product based fractals",
+            "id": 387,
+            "name": "Kronecker product based fractals",
             "link": "http://rosettacode.org/wiki/Kronecker_product_based_fractals"
         },
         {
-            "title": "Langton's ant",
+            "id": 388,
+            "name": "Langton's ant",
             "link": "http://rosettacode.org/wiki/Langton%27s_ant"
         },
         {
-            "title": "Largest int from concatenated ints",
+            "id": 389,
+            "name": "Largest int from concatenated ints",
             "link": "http://rosettacode.org/wiki/Largest_int_from_concatenated_ints"
         },
         {
-            "title": "Last Friday of each month",
+            "id": 390,
+            "name": "Last Friday of each month",
             "link": "http://rosettacode.org/wiki/Last_Friday_of_each_month"
         },
         {
-            "title": "Last letter-first letter",
+            "id": 391,
+            "name": "Last letter-first letter",
             "link": "http://rosettacode.org/wiki/Last_letter-first_letter"
         },
         {
-            "title": "Leap year",
+            "id": 392,
+            "name": "Leap year",
             "link": "http://rosettacode.org/wiki/Leap_year"
         },
         {
-            "title": "Least common multiple",
+            "id": 393,
+            "name": "Least common multiple",
             "link": "http://rosettacode.org/wiki/Least_common_multiple"
         },
         {
-            "title": "Left factorials",
+            "id": 394,
+            "name": "Left factorials",
             "link": "http://rosettacode.org/wiki/Left_factorials"
         },
         {
-            "title": "Leonardo numbers",
+            "id": 395,
+            "name": "Leonardo numbers",
             "link": "http://rosettacode.org/wiki/Leonardo_numbers"
         },
         {
-            "title": "Letter frequency",
+            "id": 396,
+            "name": "Letter frequency",
             "link": "http://rosettacode.org/wiki/Letter_frequency"
         },
         {
-            "title": "Levenshtein distance",
+            "id": 397,
+            "name": "Levenshtein distance",
             "link": "http://rosettacode.org/wiki/Levenshtein_distance"
         },
         {
-            "title": "Linear congruential generator",
+            "id": 398,
+            "name": "Linear congruential generator",
             "link": "http://rosettacode.org/wiki/Linear_congruential_generator"
         },
         {
-            "title": "List comprehensions",
+            "id": 399,
+            "name": "List comprehensions",
             "link": "http://rosettacode.org/wiki/List_comprehensions"
         },
         {
-            "title": "Literals/Floating point",
+            "id": 400,
+            "name": "Literals/Floating point",
             "link": "http://rosettacode.org/wiki/Literals/Floating_point"
         },
         {
-            "title": "Literals/Integer",
+            "id": 401,
+            "name": "Literals/Integer",
             "link": "http://rosettacode.org/wiki/Literals/Integer"
         },
         {
-            "title": "Literals/String",
+            "id": 402,
+            "name": "Literals/String",
             "link": "http://rosettacode.org/wiki/Literals/String"
         },
         {
-            "title": "Logical operations",
+            "id": 403,
+            "name": "Logical operations",
             "link": "http://rosettacode.org/wiki/Logical_operations"
         },
         {
-            "title": "Long multiplication",
+            "id": 404,
+            "name": "Long multiplication",
             "link": "http://rosettacode.org/wiki/Long_multiplication"
         },
         {
-            "title": "Longest common subsequence",
+            "id": 405,
+            "name": "Longest common subsequence",
             "link": "http://rosettacode.org/wiki/Longest_common_subsequence"
         },
         {
-            "title": "Longest increasing subsequence",
+            "id": 406,
+            "name": "Longest increasing subsequence",
             "link": "http://rosettacode.org/wiki/Longest_increasing_subsequence"
         },
         {
-            "title": "Longest string challenge",
+            "id": 407,
+            "name": "Longest string challenge",
             "link": "http://rosettacode.org/wiki/Longest_string_challenge"
         },
         {
-            "title": "Look-and-say sequence",
+            "id": 408,
+            "name": "Look-and-say sequence",
             "link": "http://rosettacode.org/wiki/Look-and-say_sequence"
         },
         {
-            "title": "Loop over multiple arrays simultaneously",
+            "id": 409,
+            "name": "Loop over multiple arrays simultaneously",
             "link": "http://rosettacode.org/wiki/Loop_over_multiple_arrays_simultaneously"
         },
         {
-            "title": "Loops/Break",
+            "id": 410,
+            "name": "Loops/Break",
             "link": "http://rosettacode.org/wiki/Loops/Break"
         },
         {
-            "title": "Loops/Continue",
+            "id": 411,
+            "name": "Loops/Continue",
             "link": "http://rosettacode.org/wiki/Loops/Continue"
         },
         {
-            "title": "Loops/Do-while",
+            "id": 412,
+            "name": "Loops/Do-while",
             "link": "http://rosettacode.org/wiki/Loops/Do-while"
         },
         {
-            "title": "Loops/Downward for",
+            "id": 413,
+            "name": "Loops/Downward for",
             "link": "http://rosettacode.org/wiki/Loops/Downward_for"
         },
         {
-            "title": "Loops/For",
+            "id": 414,
+            "name": "Loops/For",
             "link": "http://rosettacode.org/wiki/Loops/For"
         },
         {
-            "title": "Loops/For with a specified step",
+            "id": 415,
+            "name": "Loops/For with a specified step",
             "link": "http://rosettacode.org/wiki/Loops/For_with_a_specified_step"
         },
         {
-            "title": "Loops/Foreach",
+            "id": 416,
+            "name": "Loops/Foreach",
             "link": "http://rosettacode.org/wiki/Loops/Foreach"
         },
         {
-            "title": "Loops/Infinite",
+            "id": 417,
+            "name": "Loops/Infinite",
             "link": "http://rosettacode.org/wiki/Loops/Infinite"
         },
         {
-            "title": "Loops/N plus one half",
+            "id": 418,
+            "name": "Loops/N plus one half",
             "link": "http://rosettacode.org/wiki/Loops/N_plus_one_half"
         },
         {
-            "title": "Loops/Nested",
+            "id": 419,
+            "name": "Loops/Nested",
             "link": "http://rosettacode.org/wiki/Loops/Nested"
         },
         {
-            "title": "Loops/While",
+            "id": 420,
+            "name": "Loops/While",
             "link": "http://rosettacode.org/wiki/Loops/While"
         },
         {
-            "title": "LU decomposition",
+            "id": 421,
+            "name": "LU decomposition",
             "link": "http://rosettacode.org/wiki/LU_decomposition"
         },
         {
-            "title": "Lucas-Lehmer test",
+            "id": 422,
+            "name": "Lucas-Lehmer test",
             "link": "http://rosettacode.org/wiki/Lucas-Lehmer_test"
         },
         {
-            "title": "Lucky and even lucky numbers",
+            "id": 423,
+            "name": "Lucky and even lucky numbers",
             "link": "http://rosettacode.org/wiki/Lucky_and_even_lucky_numbers"
         },
         {
-            "title": "Ludic numbers",
+            "id": 424,
+            "name": "Ludic numbers",
             "link": "http://rosettacode.org/wiki/Ludic_numbers"
         },
         {
-            "title": "Luhn test of credit card numbers",
+            "id": 425,
+            "name": "Luhn test of credit card numbers",
             "link": "http://rosettacode.org/wiki/Luhn_test_of_credit_card_numbers"
         },
         {
-            "title": "Lychrel numbers",
+            "id": 426,
+            "name": "Lychrel numbers",
             "link": "http://rosettacode.org/wiki/Lychrel_numbers"
         },
         {
-            "title": "LZW compression",
+            "id": 427,
+            "name": "LZW compression",
             "link": "http://rosettacode.org/wiki/LZW_compression"
         },
         {
-            "title": "MAC Vendor Lookup",
+            "id": 428,
+            "name": "MAC Vendor Lookup",
             "link": "http://rosettacode.org/wiki/MAC_Vendor_Lookup"
         },
         {
-            "title": "Machine code",
+            "id": 429,
+            "name": "Machine code",
             "link": "http://rosettacode.org/wiki/Machine_code"
         },
         {
-            "title": "Mad Libs",
+            "id": 430,
+            "name": "Mad Libs",
             "link": "http://rosettacode.org/wiki/Mad_Libs"
         },
         {
-            "title": "Magic squares of doubly even order",
+            "id": 431,
+            "name": "Magic squares of doubly even order",
             "link": "http://rosettacode.org/wiki/Magic_squares_of_doubly_even_order"
         },
         {
-            "title": "Magic squares of odd order",
+            "id": 432,
+            "name": "Magic squares of odd order",
             "link": "http://rosettacode.org/wiki/Magic_squares_of_odd_order"
         },
         {
-            "title": "Magic squares of singly even order",
+            "id": 433,
+            "name": "Magic squares of singly even order",
             "link": "http://rosettacode.org/wiki/Magic_squares_of_singly_even_order"
         },
         {
-            "title": "Main step of GOST 28147-89",
+            "id": 434,
+            "name": "Main step of GOST 28147-89",
             "link": "http://rosettacode.org/wiki/Main_step_of_GOST_28147-89"
         },
         {
-            "title": "Make directory path",
+            "id": 435,
+            "name": "Make directory path",
             "link": "http://rosettacode.org/wiki/Make_directory_path"
         },
         {
-            "title": "Man or boy test",
+            "id": 436,
+            "name": "Man or boy test",
             "link": "http://rosettacode.org/wiki/Man_or_boy_test"
         },
         {
-            "title": "Mandelbrot set",
+            "id": 437,
+            "name": "Mandelbrot set",
             "link": "http://rosettacode.org/wiki/Mandelbrot_set"
         },
         {
-            "title": "Map range",
+            "id": 438,
+            "name": "Map range",
             "link": "http://rosettacode.org/wiki/Map_range"
         },
         {
-            "title": "Matrix arithmetic",
+            "id": 439,
+            "name": "Matrix arithmetic",
             "link": "http://rosettacode.org/wiki/Matrix_arithmetic"
         },
         {
-            "title": "Matrix multiplication",
+            "id": 440,
+            "name": "Matrix multiplication",
             "link": "http://rosettacode.org/wiki/Matrix_multiplication"
         },
         {
-            "title": "Matrix transposition",
+            "id": 441,
+            "name": "Matrix transposition",
             "link": "http://rosettacode.org/wiki/Matrix_transposition"
         },
         {
-            "title": "Matrix-exponentiation operator",
+            "id": 442,
+            "name": "Matrix-exponentiation operator",
             "link": "http://rosettacode.org/wiki/Matrix-exponentiation_operator"
         },
         {
-            "title": "Maximum triangle path sum",
+            "id": 443,
+            "name": "Maximum triangle path sum",
             "link": "http://rosettacode.org/wiki/Maximum_triangle_path_sum"
         },
         {
-            "title": "Maze generation",
+            "id": 444,
+            "name": "Maze generation",
             "link": "http://rosettacode.org/wiki/Maze_generation"
         },
         {
-            "title": "Maze solving",
+            "id": 445,
+            "name": "Maze solving",
             "link": "http://rosettacode.org/wiki/Maze_solving"
         },
         {
-            "title": "MD4",
+            "id": 446,
+            "name": "MD4",
             "link": "http://rosettacode.org/wiki/MD4"
         },
         {
-            "title": "MD5",
+            "id": 447,
+            "name": "MD5",
             "link": "http://rosettacode.org/wiki/MD5"
         },
         {
-            "title": "MD5/Implementation",
+            "id": 448,
+            "name": "MD5/Implementation",
             "link": "http://rosettacode.org/wiki/MD5/Implementation"
         },
         {
-            "title": "Median filter",
+            "id": 449,
+            "name": "Median filter",
             "link": "http://rosettacode.org/wiki/Median_filter"
         },
         {
-            "title": "Memory allocation",
+            "id": 450,
+            "name": "Memory allocation",
             "link": "http://rosettacode.org/wiki/Memory_allocation"
         },
         {
-            "title": "Memory layout of a data structure",
+            "id": 451,
+            "name": "Memory layout of a data structure",
             "link": "http://rosettacode.org/wiki/Memory_layout_of_a_data_structure"
         },
         {
-            "title": "Menu",
+            "id": 452,
+            "name": "Menu",
             "link": "http://rosettacode.org/wiki/Menu"
         },
         {
-            "title": "Metaprogramming",
+            "id": 453,
+            "name": "Metaprogramming",
             "link": "http://rosettacode.org/wiki/Metaprogramming"
         },
         {
-            "title": "Metered concurrency",
+            "id": 454,
+            "name": "Metered concurrency",
             "link": "http://rosettacode.org/wiki/Metered_concurrency"
         },
         {
-            "title": "Metronome",
+            "id": 455,
+            "name": "Metronome",
             "link": "http://rosettacode.org/wiki/Metronome"
         },
         {
-            "title": "Middle three digits",
+            "id": 456,
+            "name": "Middle three digits",
             "link": "http://rosettacode.org/wiki/Middle_three_digits"
         },
         {
-            "title": "Miller–Rabin primality test",
+            "id": 457,
+            "name": "Miller–Rabin primality test",
             "link": "http://rosettacode.org/wiki/Miller%E2%80%93Rabin_primality_test"
         },
         {
-            "title": "Minesweeper game",
+            "id": 458,
+            "name": "Minesweeper game",
             "link": "http://rosettacode.org/wiki/Minesweeper_game"
         },
         {
-            "title": "Modular exponentiation",
+            "id": 459,
+            "name": "Modular exponentiation",
             "link": "http://rosettacode.org/wiki/Modular_exponentiation"
         },
         {
-            "title": "Modular inverse",
+            "id": 460,
+            "name": "Modular inverse",
             "link": "http://rosettacode.org/wiki/Modular_inverse"
         },
         {
-            "title": "Monte Carlo methods",
+            "id": 461,
+            "name": "Monte Carlo methods",
             "link": "http://rosettacode.org/wiki/Monte_Carlo_methods"
         },
         {
-            "title": "Monty Hall problem",
+            "id": 462,
+            "name": "Monty Hall problem",
             "link": "http://rosettacode.org/wiki/Monty_Hall_problem"
         },
         {
-            "title": "Morse code",
+            "id": 463,
+            "name": "Morse code",
             "link": "http://rosettacode.org/wiki/Morse_code"
         },
         {
-            "title": "Mouse position",
+            "id": 464,
+            "name": "Mouse position",
             "link": "http://rosettacode.org/wiki/Mouse_position"
         },
         {
-            "title": "Move-to-front algorithm",
+            "id": 465,
+            "name": "Move-to-front algorithm",
             "link": "http://rosettacode.org/wiki/Move-to-front_algorithm"
         },
         {
-            "title": "Multifactorial",
+            "id": 466,
+            "name": "Multifactorial",
             "link": "http://rosettacode.org/wiki/Multifactorial"
         },
         {
-            "title": "Multiple distinct objects",
+            "id": 467,
+            "name": "Multiple distinct objects",
             "link": "http://rosettacode.org/wiki/Multiple_distinct_objects"
         },
         {
-            "title": "Multiple regression",
+            "id": 468,
+            "name": "Multiple regression",
             "link": "http://rosettacode.org/wiki/Multiple_regression"
         },
         {
-            "title": "Multiplication tables",
+            "id": 469,
+            "name": "Multiplication tables",
             "link": "http://rosettacode.org/wiki/Multiplication_tables"
         },
         {
-            "title": "Multiplicative order",
+            "id": 470,
+            "name": "Multiplicative order",
             "link": "http://rosettacode.org/wiki/Multiplicative_order"
         },
         {
-            "title": "Multisplit",
+            "id": 471,
+            "name": "Multisplit",
             "link": "http://rosettacode.org/wiki/Multisplit"
         },
         {
-            "title": "Munchausen numbers",
+            "id": 472,
+            "name": "Munchausen numbers",
             "link": "http://rosettacode.org/wiki/Munchausen_numbers"
         },
         {
-            "title": "Munching squares",
+            "id": 473,
+            "name": "Munching squares",
             "link": "http://rosettacode.org/wiki/Munching_squares"
         },
         {
-            "title": "Mutual recursion",
+            "id": 474,
+            "name": "Mutual recursion",
             "link": "http://rosettacode.org/wiki/Mutual_recursion"
         },
         {
-            "title": "N'th",
+            "id": 475,
+            "name": "N'th",
             "link": "http://rosettacode.org/wiki/N%27th"
         },
         {
-            "title": "N-queens problem",
+            "id": 476,
+            "name": "N-queens problem",
             "link": "http://rosettacode.org/wiki/N-queens_problem"
         },
         {
-            "title": "Named parameters",
+            "id": 477,
+            "name": "Named parameters",
             "link": "http://rosettacode.org/wiki/Named_parameters"
         },
         {
-            "title": "Naming conventions",
+            "id": 478,
+            "name": "Naming conventions",
             "link": "http://rosettacode.org/wiki/Naming_conventions"
         },
         {
-            "title": "Narcissist",
+            "id": 479,
+            "name": "Narcissist",
             "link": "http://rosettacode.org/wiki/Narcissist"
         },
         {
-            "title": "Narcissistic decimal number",
+            "id": 480,
+            "name": "Narcissistic decimal number",
             "link": "http://rosettacode.org/wiki/Narcissistic_decimal_number"
         },
         {
-            "title": "Natural sorting",
+            "id": 481,
+            "name": "Natural sorting",
             "link": "http://rosettacode.org/wiki/Natural_sorting"
         },
         {
-            "title": "Nautical bell",
+            "id": 482,
+            "name": "Nautical bell",
             "link": "http://rosettacode.org/wiki/Nautical_bell"
         },
         {
-            "title": "Negative base numbers",
+            "id": 483,
+            "name": "Negative base numbers",
             "link": "http://rosettacode.org/wiki/Negative_base_numbers"
         },
         {
-            "title": "Nested function",
+            "id": 484,
+            "name": "Nested function",
             "link": "http://rosettacode.org/wiki/Nested_function"
         },
         {
-            "title": "Non-continuous subsequences",
+            "id": 485,
+            "name": "Non-continuous subsequences",
             "link": "http://rosettacode.org/wiki/Non-continuous_subsequences"
         },
         {
-            "title": "Non-decimal radices/Convert",
+            "id": 486,
+            "name": "Non-decimal radices/Convert",
             "link": "http://rosettacode.org/wiki/Non-decimal_radices/Convert"
         },
         {
-            "title": "Non-decimal radices/Input",
+            "id": 487,
+            "name": "Non-decimal radices/Input",
             "link": "http://rosettacode.org/wiki/Non-decimal_radices/Input"
         },
         {
-            "title": "Non-decimal radices/Output",
+            "id": 488,
+            "name": "Non-decimal radices/Output",
             "link": "http://rosettacode.org/wiki/Non-decimal_radices/Output"
         },
         {
-            "title": "Nonoblock",
+            "id": 489,
+            "name": "Nonoblock",
             "link": "http://rosettacode.org/wiki/Nonoblock"
         },
         {
-            "title": "Nonogram solver",
+            "id": 490,
+            "name": "Nonogram solver",
             "link": "http://rosettacode.org/wiki/Nonogram_solver"
         },
         {
-            "title": "Nth root",
+            "id": 491,
+            "name": "Nth root",
             "link": "http://rosettacode.org/wiki/Nth_root"
         },
         {
-            "title": "Null object",
+            "id": 492,
+            "name": "Null object",
             "link": "http://rosettacode.org/wiki/Null_object"
         },
         {
-            "title": "Number names",
+            "id": 493,
+            "name": "Number names",
             "link": "http://rosettacode.org/wiki/Number_names"
         },
         {
-            "title": "Number reversal game",
+            "id": 494,
+            "name": "Number reversal game",
             "link": "http://rosettacode.org/wiki/Number_reversal_game"
         },
         {
-            "title": "Numeric error propagation",
+            "id": 495,
+            "name": "Numeric error propagation",
             "link": "http://rosettacode.org/wiki/Numeric_error_propagation"
         },
         {
-            "title": "Numerical integration",
+            "id": 496,
+            "name": "Numerical integration",
             "link": "http://rosettacode.org/wiki/Numerical_integration"
         },
         {
-            "title": "Numerical integration/Gauss-Legendre Quadrature",
+            "id": 497,
+            "name": "Numerical integration/Gauss-Legendre Quadrature",
             "link": "http://rosettacode.org/wiki/Numerical_integration/Gauss-Legendre_Quadrature"
         },
         {
-            "title": "Object serialization",
+            "id": 498,
+            "name": "Object serialization",
             "link": "http://rosettacode.org/wiki/Object_serialization"
         },
         {
-            "title": "Odd word problem",
+            "id": 499,
+            "name": "Odd word problem",
             "link": "http://rosettacode.org/wiki/Odd_word_problem"
         },
         {
-            "title": "Old lady swallowed a fly",
+            "id": 500,
+            "name": "Old lady swallowed a fly",
             "link": "http://rosettacode.org/wiki/Old_lady_swallowed_a_fly"
         },
         {
-            "title": "OLE Automation",
+            "id": 501,
+            "name": "OLE Automation",
             "link": "http://rosettacode.org/wiki/OLE_Automation"
         },
         {
-            "title": "One of n lines in a file",
+            "id": 502,
+            "name": "One of n lines in a file",
             "link": "http://rosettacode.org/wiki/One_of_n_lines_in_a_file"
         },
         {
-            "title": "One-dimensional cellular automata",
+            "id": 503,
+            "name": "One-dimensional cellular automata",
             "link": "http://rosettacode.org/wiki/One-dimensional_cellular_automata"
         },
         {
-            "title": "OpenGL",
+            "id": 504,
+            "name": "OpenGL",
             "link": "http://rosettacode.org/wiki/OpenGL"
         },
         {
-            "title": "Operator precedence",
+            "id": 505,
+            "name": "Operator precedence",
             "link": "http://rosettacode.org/wiki/Operator_precedence"
         },
         {
-            "title": "Optional parameters",
+            "id": 506,
+            "name": "Optional parameters",
             "link": "http://rosettacode.org/wiki/Optional_parameters"
         },
         {
-            "title": "Order disjoint list items",
+            "id": 507,
+            "name": "Order disjoint list items",
             "link": "http://rosettacode.org/wiki/Order_disjoint_list_items"
         },
         {
-            "title": "Order two numerical lists",
+            "id": 508,
+            "name": "Order two numerical lists",
             "link": "http://rosettacode.org/wiki/Order_two_numerical_lists"
         },
         {
-            "title": "Ordered Partitions",
+            "id": 509,
+            "name": "Ordered Partitions",
             "link": "http://rosettacode.org/wiki/Ordered_Partitions"
         },
         {
-            "title": "Ordered words",
+            "id": 510,
+            "name": "Ordered words",
             "link": "http://rosettacode.org/wiki/Ordered_words"
         },
         {
-            "title": "Palindrome detection",
+            "id": 511,
+            "name": "Palindrome detection",
             "link": "http://rosettacode.org/wiki/Palindrome_detection"
         },
         {
-            "title": "Pangram checker",
+            "id": 512,
+            "name": "Pangram checker",
             "link": "http://rosettacode.org/wiki/Pangram_checker"
         },
         {
-            "title": "Paraffins",
+            "id": 513,
+            "name": "Paraffins",
             "link": "http://rosettacode.org/wiki/Paraffins"
         },
         {
-            "title": "Parallel Brute Force",
+            "id": 514,
+            "name": "Parallel Brute Force",
             "link": "http://rosettacode.org/wiki/Parallel_Brute_Force"
         },
         {
-            "title": "Parallel calculations",
+            "id": 515,
+            "name": "Parallel calculations",
             "link": "http://rosettacode.org/wiki/Parallel_calculations"
         },
         {
-            "title": "Parametric polymorphism",
+            "id": 516,
+            "name": "Parametric polymorphism",
             "link": "http://rosettacode.org/wiki/Parametric_polymorphism"
         },
         {
-            "title": "Parametrized SQL statement",
+            "id": 517,
+            "name": "Parametrized SQL statement",
             "link": "http://rosettacode.org/wiki/Parametrized_SQL_statement"
         },
         {
-            "title": "Parse an IP Address",
+            "id": 518,
+            "name": "Parse an IP Address",
             "link": "http://rosettacode.org/wiki/Parse_an_IP_Address"
         },
         {
-            "title": "Parsing/RPN calculator algorithm",
+            "id": 519,
+            "name": "Parsing/RPN calculator algorithm",
             "link": "http://rosettacode.org/wiki/Parsing/RPN_calculator_algorithm"
         },
         {
-            "title": "Parsing/RPN to infix conversion",
+            "id": 520,
+            "name": "Parsing/RPN to infix conversion",
             "link": "http://rosettacode.org/wiki/Parsing/RPN_to_infix_conversion"
         },
         {
-            "title": "Parsing/Shunting-yard algorithm",
+            "id": 521,
+            "name": "Parsing/Shunting-yard algorithm",
             "link": "http://rosettacode.org/wiki/Parsing/Shunting-yard_algorithm"
         },
         {
-            "title": "Partial function application",
+            "id": 522,
+            "name": "Partial function application",
             "link": "http://rosettacode.org/wiki/Partial_function_application"
         },
         {
-            "title": "Partition an integer X into N primes",
+            "id": 523,
+            "name": "Partition an integer X into N primes",
             "link": "http://rosettacode.org/wiki/Partition_an_integer_X_into_N_primes"
         },
         {
-            "title": "Pascal matrix generation",
+            "id": 524,
+            "name": "Pascal matrix generation",
             "link": "http://rosettacode.org/wiki/Pascal_matrix_generation"
         },
         {
-            "title": "Pascal's triangle",
+            "id": 525,
+            "name": "Pascal's triangle",
             "link": "http://rosettacode.org/wiki/Pascal%27s_triangle"
         },
         {
-            "title": "Pascal's triangle/Puzzle",
+            "id": 526,
+            "name": "Pascal's triangle/Puzzle",
             "link": "http://rosettacode.org/wiki/Pascal%27s_triangle/Puzzle"
         },
         {
-            "title": "Password generator",
+            "id": 527,
+            "name": "Password generator",
             "link": "http://rosettacode.org/wiki/Password_generator"
         },
         {
-            "title": "Pathological floating point problems",
+            "id": 528,
+            "name": "Pathological floating point problems",
             "link": "http://rosettacode.org/wiki/Pathological_floating_point_problems"
         },
         {
-            "title": "Pattern matching",
+            "id": 529,
+            "name": "Pattern matching",
             "link": "http://rosettacode.org/wiki/Pattern_matching"
         },
         {
-            "title": "Penney's game",
+            "id": 530,
+            "name": "Penney's game",
             "link": "http://rosettacode.org/wiki/Penney%27s_game"
         },
         {
-            "title": "Pentagram",
+            "id": 531,
+            "name": "Pentagram",
             "link": "http://rosettacode.org/wiki/Pentagram"
         },
         {
-            "title": "Percentage difference between images",
+            "id": 532,
+            "name": "Percentage difference between images",
             "link": "http://rosettacode.org/wiki/Percentage_difference_between_images"
         },
         {
-            "title": "Percolation/Bond percolation",
+            "id": 533,
+            "name": "Percolation/Bond percolation",
             "link": "http://rosettacode.org/wiki/Percolation/Bond_percolation"
         },
         {
-            "title": "Percolation/Mean cluster density",
+            "id": 534,
+            "name": "Percolation/Mean cluster density",
             "link": "http://rosettacode.org/wiki/Percolation/Mean_cluster_density"
         },
         {
-            "title": "Percolation/Mean run density",
+            "id": 535,
+            "name": "Percolation/Mean run density",
             "link": "http://rosettacode.org/wiki/Percolation/Mean_run_density"
         },
         {
-            "title": "Percolation/Site percolation",
+            "id": 536,
+            "name": "Percolation/Site percolation",
             "link": "http://rosettacode.org/wiki/Percolation/Site_percolation"
         },
         {
-            "title": "Perfect numbers",
+            "id": 537,
+            "name": "Perfect numbers",
             "link": "http://rosettacode.org/wiki/Perfect_numbers"
         },
         {
-            "title": "Perfect shuffle",
+            "id": 538,
+            "name": "Perfect shuffle",
             "link": "http://rosettacode.org/wiki/Perfect_shuffle"
         },
         {
-            "title": "Permutation test",
+            "id": 539,
+            "name": "Permutation test",
             "link": "http://rosettacode.org/wiki/Permutation_test"
         },
         {
-            "title": "Permutations",
+            "id": 540,
+            "name": "Permutations",
             "link": "http://rosettacode.org/wiki/Permutations"
         },
         {
-            "title": "Permutations by swapping",
+            "id": 541,
+            "name": "Permutations by swapping",
             "link": "http://rosettacode.org/wiki/Permutations_by_swapping"
         },
         {
-            "title": "Permutations/Derangements",
+            "id": 542,
+            "name": "Permutations/Derangements",
             "link": "http://rosettacode.org/wiki/Permutations/Derangements"
         },
         {
-            "title": "Permutations/Rank of a permutation",
+            "id": 543,
+            "name": "Permutations/Rank of a permutation",
             "link": "http://rosettacode.org/wiki/Permutations/Rank_of_a_permutation"
         },
         {
-            "title": "Pernicious numbers",
+            "id": 544,
+            "name": "Pernicious numbers",
             "link": "http://rosettacode.org/wiki/Pernicious_numbers"
         },
         {
-            "title": "Phrase reversals",
+            "id": 545,
+            "name": "Phrase reversals",
             "link": "http://rosettacode.org/wiki/Phrase_reversals"
         },
         {
-            "title": "Pi",
+            "id": 546,
+            "name": "Pi",
             "link": "http://rosettacode.org/wiki/Pi"
         },
         {
-            "title": "Pick random element",
+            "id": 547,
+            "name": "Pick random element",
             "link": "http://rosettacode.org/wiki/Pick_random_element"
         },
         {
-            "title": "Pig the dice game",
+            "id": 548,
+            "name": "Pig the dice game",
             "link": "http://rosettacode.org/wiki/Pig_the_dice_game"
         },
         {
-            "title": "Pig the dice game/Player",
+            "id": 549,
+            "name": "Pig the dice game/Player",
             "link": "http://rosettacode.org/wiki/Pig_the_dice_game/Player"
         },
         {
-            "title": "Pinstripe/Display",
+            "id": 550,
+            "name": "Pinstripe/Display",
             "link": "http://rosettacode.org/wiki/Pinstripe/Display"
         },
         {
-            "title": "Pinstripe/Printer",
+            "id": 551,
+            "name": "Pinstripe/Printer",
             "link": "http://rosettacode.org/wiki/Pinstripe/Printer"
         },
         {
-            "title": "Plasma effect",
+            "id": 552,
+            "name": "Plasma effect",
             "link": "http://rosettacode.org/wiki/Plasma_effect"
         },
         {
-            "title": "Play recorded sounds",
+            "id": 553,
+            "name": "Play recorded sounds",
             "link": "http://rosettacode.org/wiki/Play_recorded_sounds"
         },
         {
-            "title": "Playing cards",
+            "id": 554,
+            "name": "Playing cards",
             "link": "http://rosettacode.org/wiki/Playing_cards"
         },
         {
-            "title": "Plot coordinate pairs",
+            "id": 555,
+            "name": "Plot coordinate pairs",
             "link": "http://rosettacode.org/wiki/Plot_coordinate_pairs"
         },
         {
-            "title": "Pointers and references",
+            "id": 556,
+            "name": "Pointers and references",
             "link": "http://rosettacode.org/wiki/Pointers_and_references"
         },
         {
-            "title": "Poker hand analyser",
+            "id": 557,
+            "name": "Poker hand analyser",
             "link": "http://rosettacode.org/wiki/Poker_hand_analyser"
         },
         {
-            "title": "Polymorphic copy",
+            "id": 558,
+            "name": "Polymorphic copy",
             "link": "http://rosettacode.org/wiki/Polymorphic_copy"
         },
         {
-            "title": "Polymorphism",
+            "id": 559,
+            "name": "Polymorphism",
             "link": "http://rosettacode.org/wiki/Polymorphism"
         },
         {
-            "title": "Polynomial long division",
+            "id": 560,
+            "name": "Polynomial long division",
             "link": "http://rosettacode.org/wiki/Polynomial_long_division"
         },
         {
-            "title": "Polynomial regression",
+            "id": 561,
+            "name": "Polynomial regression",
             "link": "http://rosettacode.org/wiki/Polynomial_regression"
         },
         {
-            "title": "Polyspiral",
+            "id": 562,
+            "name": "Polyspiral",
             "link": "http://rosettacode.org/wiki/Polyspiral"
         },
         {
-            "title": "Population count",
+            "id": 563,
+            "name": "Population count",
             "link": "http://rosettacode.org/wiki/Population_count"
         },
         {
-            "title": "Power set",
+            "id": 564,
+            "name": "Power set",
             "link": "http://rosettacode.org/wiki/Power_set"
         },
         {
-            "title": "Pragmatic directives",
+            "id": 565,
+            "name": "Pragmatic directives",
             "link": "http://rosettacode.org/wiki/Pragmatic_directives"
         },
         {
-            "title": "Price fraction",
+            "id": 566,
+            "name": "Price fraction",
             "link": "http://rosettacode.org/wiki/Price_fraction"
         },
         {
-            "title": "Primality by trial division",
+            "id": 567,
+            "name": "Primality by trial division",
             "link": "http://rosettacode.org/wiki/Primality_by_trial_division"
         },
         {
-            "title": "Prime decomposition",
+            "id": 568,
+            "name": "Prime decomposition",
             "link": "http://rosettacode.org/wiki/Prime_decomposition"
         },
         {
-            "title": "Primes - allocate descendants to their ancestors",
+            "id": 569,
+            "name": "Primes - allocate descendants to their ancestors",
             "link": "http://rosettacode.org/wiki/Primes_-_allocate_descendants_to_their_ancestors"
         },
         {
-            "title": "Primorial numbers",
+            "id": 570,
+            "name": "Primorial numbers",
             "link": "http://rosettacode.org/wiki/Primorial_numbers"
         },
         {
-            "title": "Priority queue",
+            "id": 571,
+            "name": "Priority queue",
             "link": "http://rosettacode.org/wiki/Priority_queue"
         },
         {
-            "title": "Probabilistic choice",
+            "id": 572,
+            "name": "Probabilistic choice",
             "link": "http://rosettacode.org/wiki/Probabilistic_choice"
         },
         {
-            "title": "Problem of Apollonius",
+            "id": 573,
+            "name": "Problem of Apollonius",
             "link": "http://rosettacode.org/wiki/Problem_of_Apollonius"
         },
         {
-            "title": "Program name",
+            "id": 574,
+            "name": "Program name",
             "link": "http://rosettacode.org/wiki/Program_name"
         },
         {
-            "title": "Program termination",
+            "id": 575,
+            "name": "Program termination",
             "link": "http://rosettacode.org/wiki/Program_termination"
         },
         {
-            "title": "Pythagoras tree",
+            "id": 576,
+            "name": "Pythagoras tree",
             "link": "http://rosettacode.org/wiki/Pythagoras_tree"
         },
         {
-            "title": "Pythagorean quadruples",
+            "id": 577,
+            "name": "Pythagorean quadruples",
             "link": "http://rosettacode.org/wiki/Pythagorean_quadruples"
         },
         {
-            "title": "Pythagorean triples",
+            "id": 578,
+            "name": "Pythagorean triples",
             "link": "http://rosettacode.org/wiki/Pythagorean_triples"
         },
         {
-            "title": "QR decomposition",
+            "id": 579,
+            "name": "QR decomposition",
             "link": "http://rosettacode.org/wiki/QR_decomposition"
         },
         {
-            "title": "Quaternion type",
+            "id": 580,
+            "name": "Quaternion type",
             "link": "http://rosettacode.org/wiki/Quaternion_type"
         },
         {
-            "title": "Queue/Definition",
+            "id": 581,
+            "name": "Queue/Definition",
             "link": "http://rosettacode.org/wiki/Queue/Definition"
         },
         {
-            "title": "Queue/Usage",
+            "id": 582,
+            "name": "Queue/Usage",
             "link": "http://rosettacode.org/wiki/Queue/Usage"
         },
         {
-            "title": "Quickselect algorithm",
+            "id": 583,
+            "name": "Quickselect algorithm",
             "link": "http://rosettacode.org/wiki/Quickselect_algorithm"
         },
         {
-            "title": "Quine",
+            "id": 584,
+            "name": "Quine",
             "link": "http://rosettacode.org/wiki/Quine"
         },
         {
-            "title": "Ramer-Douglas-Peucker line simplification",
+            "id": 585,
+            "name": "Ramer-Douglas-Peucker line simplification",
             "link": "http://rosettacode.org/wiki/Ramer-Douglas-Peucker_line_simplification"
         },
         {
-            "title": "Random number generator (device)",
+            "id": 586,
+            "name": "Random number generator (device)",
             "link": "http://rosettacode.org/wiki/Random_number_generator_(device)"
         },
         {
-            "title": "Random number generator (included)",
+            "id": 587,
+            "name": "Random number generator (included)",
             "link": "http://rosettacode.org/wiki/Random_number_generator_(included)"
         },
         {
-            "title": "Random numbers",
+            "id": 588,
+            "name": "Random numbers",
             "link": "http://rosettacode.org/wiki/Random_numbers"
         },
         {
-            "title": "Range expansion",
+            "id": 589,
+            "name": "Range expansion",
             "link": "http://rosettacode.org/wiki/Range_expansion"
         },
         {
-            "title": "Range extraction",
+            "id": 590,
+            "name": "Range extraction",
             "link": "http://rosettacode.org/wiki/Range_extraction"
         },
         {
-            "title": "Ranking methods",
+            "id": 591,
+            "name": "Ranking methods",
             "link": "http://rosettacode.org/wiki/Ranking_methods"
         },
         {
-            "title": "Rate counter",
+            "id": 592,
+            "name": "Rate counter",
             "link": "http://rosettacode.org/wiki/Rate_counter"
         },
         {
-            "title": "Ray-casting algorithm",
+            "id": 593,
+            "name": "Ray-casting algorithm",
             "link": "http://rosettacode.org/wiki/Ray-casting_algorithm"
         },
         {
-            "title": "RCRPG",
+            "id": 594,
+            "name": "RCRPG",
             "link": "http://rosettacode.org/wiki/RCRPG"
         },
         {
-            "title": "Read a configuration file",
+            "id": 595,
+            "name": "Read a configuration file",
             "link": "http://rosettacode.org/wiki/Read_a_configuration_file"
         },
         {
-            "title": "Read a file line by line",
+            "id": 596,
+            "name": "Read a file line by line",
             "link": "http://rosettacode.org/wiki/Read_a_file_line_by_line"
         },
         {
-            "title": "Read a specific line from a file",
+            "id": 597,
+            "name": "Read a specific line from a file",
             "link": "http://rosettacode.org/wiki/Read_a_specific_line_from_a_file"
         },
         {
-            "title": "Read entire file",
+            "id": 598,
+            "name": "Read entire file",
             "link": "http://rosettacode.org/wiki/Read_entire_file"
         },
         {
-            "title": "Real constants and functions",
+            "id": 599,
+            "name": "Real constants and functions",
             "link": "http://rosettacode.org/wiki/Real_constants_and_functions"
         },
         {
-            "title": "Record sound",
+            "id": 600,
+            "name": "Record sound",
             "link": "http://rosettacode.org/wiki/Record_sound"
         },
         {
-            "title": "Reduced row echelon form",
+            "id": 601,
+            "name": "Reduced row echelon form",
             "link": "http://rosettacode.org/wiki/Reduced_row_echelon_form"
         },
         {
-            "title": "Reflection/Get source",
+            "id": 602,
+            "name": "Reflection/Get source",
             "link": "http://rosettacode.org/wiki/Reflection/Get_source"
         },
         {
-            "title": "Reflection/List methods",
+            "id": 603,
+            "name": "Reflection/List methods",
             "link": "http://rosettacode.org/wiki/Reflection/List_methods"
         },
         {
-            "title": "Reflection/List properties",
+            "id": 604,
+            "name": "Reflection/List properties",
             "link": "http://rosettacode.org/wiki/Reflection/List_properties"
         },
         {
-            "title": "Regular expressions",
+            "id": 605,
+            "name": "Regular expressions",
             "link": "http://rosettacode.org/wiki/Regular_expressions"
         },
         {
-            "title": "Remove duplicate elements",
+            "id": 606,
+            "name": "Remove duplicate elements",
             "link": "http://rosettacode.org/wiki/Remove_duplicate_elements"
         },
         {
-            "title": "Remove lines from a file",
+            "id": 607,
+            "name": "Remove lines from a file",
             "link": "http://rosettacode.org/wiki/Remove_lines_from_a_file"
         },
         {
-            "title": "Rename a file",
+            "id": 608,
+            "name": "Rename a file",
             "link": "http://rosettacode.org/wiki/Rename_a_file"
         },
         {
-            "title": "Rendezvous",
+            "id": 609,
+            "name": "Rendezvous",
             "link": "http://rosettacode.org/wiki/Rendezvous"
         },
         {
-            "title": "Rep-string",
+            "id": 610,
+            "name": "Rep-string",
             "link": "http://rosettacode.org/wiki/Rep-string"
         },
         {
-            "title": "Repeat a string",
+            "id": 611,
+            "name": "Repeat a string",
             "link": "http://rosettacode.org/wiki/Repeat_a_string"
         },
         {
-            "title": "Resistor mesh",
+            "id": 612,
+            "name": "Resistor mesh",
             "link": "http://rosettacode.org/wiki/Resistor_mesh"
         },
         {
-            "title": "Respond to an unknown method call",
+            "id": 613,
+            "name": "Respond to an unknown method call",
             "link": "http://rosettacode.org/wiki/Respond_to_an_unknown_method_call"
         },
         {
-            "title": "Retrieve and search chat history",
+            "id": 614,
+            "name": "Retrieve and search chat history",
             "link": "http://rosettacode.org/wiki/Retrieve_and_search_chat_history"
         },
         {
-            "title": "Return multiple values",
+            "id": 615,
+            "name": "Return multiple values",
             "link": "http://rosettacode.org/wiki/Return_multiple_values"
         },
         {
-            "title": "Reverse a string",
+            "id": 616,
+            "name": "Reverse a string",
             "link": "http://rosettacode.org/wiki/Reverse_a_string"
         },
         {
-            "title": "Reverse words in a string",
+            "id": 617,
+            "name": "Reverse words in a string",
             "link": "http://rosettacode.org/wiki/Reverse_words_in_a_string"
         },
         {
-            "title": "RIPEMD-160",
+            "id": 618,
+            "name": "RIPEMD-160",
             "link": "http://rosettacode.org/wiki/RIPEMD-160"
         },
         {
-            "title": "Rock-paper-scissors",
+            "id": 619,
+            "name": "Rock-paper-scissors",
             "link": "http://rosettacode.org/wiki/Rock-paper-scissors"
         },
         {
-            "title": "Roman numerals/Decode",
+            "id": 620,
+            "name": "Roman numerals/Decode",
             "link": "http://rosettacode.org/wiki/Roman_numerals/Decode"
         },
         {
-            "title": "Roman numerals/Encode",
+            "id": 621,
+            "name": "Roman numerals/Encode",
             "link": "http://rosettacode.org/wiki/Roman_numerals/Encode"
         },
         {
-            "title": "Roots of a function",
+            "id": 622,
+            "name": "Roots of a function",
             "link": "http://rosettacode.org/wiki/Roots_of_a_function"
         },
         {
-            "title": "Roots of a quadratic function",
+            "id": 623,
+            "name": "Roots of a quadratic function",
             "link": "http://rosettacode.org/wiki/Roots_of_a_quadratic_function"
         },
         {
-            "title": "Roots of unity",
+            "id": 624,
+            "name": "Roots of unity",
             "link": "http://rosettacode.org/wiki/Roots_of_unity"
         },
         {
-            "title": "Rosetta Code/Count examples",
+            "id": 625,
+            "name": "Rosetta Code/Count examples",
             "link": "http://rosettacode.org/wiki/Rosetta_Code/Count_examples"
         },
         {
-            "title": "Rosetta Code/Find bare lang tags",
+            "id": 626,
+            "name": "Rosetta Code/Find bare lang tags",
             "link": "http://rosettacode.org/wiki/Rosetta_Code/Find_bare_lang_tags"
         },
         {
-            "title": "Rosetta Code/Find unimplemented tasks",
+            "id": 627,
+            "name": "Rosetta Code/Find unimplemented tasks",
             "link": "http://rosettacode.org/wiki/Rosetta_Code/Find_unimplemented_tasks"
         },
         {
-            "title": "Rosetta Code/Fix code tags",
+            "id": 628,
+            "name": "Rosetta Code/Fix code tags",
             "link": "http://rosettacode.org/wiki/Rosetta_Code/Fix_code_tags"
         },
         {
-            "title": "Rosetta Code/Rank languages by popularity",
+            "id": 629,
+            "name": "Rosetta Code/Rank languages by popularity",
             "link": "http://rosettacode.org/wiki/Rosetta_Code/Rank_languages_by_popularity"
         },
         {
-            "title": "Rot-13",
+            "id": 630,
+            "name": "Rot-13",
             "link": "http://rosettacode.org/wiki/Rot-13"
         },
         {
-            "title": "RSA code",
+            "id": 631,
+            "name": "RSA code",
             "link": "http://rosettacode.org/wiki/RSA_code"
         },
         {
-            "title": "Run-length encoding",
+            "id": 632,
+            "name": "Run-length encoding",
             "link": "http://rosettacode.org/wiki/Run-length_encoding"
         },
         {
-            "title": "Runge-Kutta method",
+            "id": 633,
+            "name": "Runge-Kutta method",
             "link": "http://rosettacode.org/wiki/Runge-Kutta_method"
         },
         {
-            "title": "Runtime evaluation",
+            "id": 634,
+            "name": "Runtime evaluation",
             "link": "http://rosettacode.org/wiki/Runtime_evaluation"
         },
         {
-            "title": "Runtime evaluation/In an environment",
+            "id": 635,
+            "name": "Runtime evaluation/In an environment",
             "link": "http://rosettacode.org/wiki/Runtime_evaluation/In_an_environment"
         },
         {
-            "title": "S-Expressions",
+            "id": 636,
+            "name": "S-Expressions",
             "link": "http://rosettacode.org/wiki/S-Expressions"
         },
         {
-            "title": "Safe addition",
+            "id": 637,
+            "name": "Safe addition",
             "link": "http://rosettacode.org/wiki/Safe_addition"
         },
         {
-            "title": "Sailors, coconuts and a monkey problem",
+            "id": 638,
+            "name": "Sailors, coconuts and a monkey problem",
             "link": "http://rosettacode.org/wiki/Sailors,_coconuts_and_a_monkey_problem"
         },
         {
-            "title": "Same Fringe",
+            "id": 639,
+            "name": "Same Fringe",
             "link": "http://rosettacode.org/wiki/Same_Fringe"
         },
         {
-            "title": "Scope modifiers",
+            "id": 640,
+            "name": "Scope modifiers",
             "link": "http://rosettacode.org/wiki/Scope_modifiers"
         },
         {
-            "title": "Scope/Function names and labels",
+            "id": 641,
+            "name": "Scope/Function names and labels",
             "link": "http://rosettacode.org/wiki/Scope/Function_names_and_labels"
         },
         {
-            "title": "Search a list",
+            "id": 642,
+            "name": "Search a list",
             "link": "http://rosettacode.org/wiki/Search_a_list"
         },
         {
-            "title": "Search a list of records",
+            "id": 643,
+            "name": "Search a list of records",
             "link": "http://rosettacode.org/wiki/Search_a_list_of_records"
         },
         {
-            "title": "Secure temporary file",
+            "id": 644,
+            "name": "Secure temporary file",
             "link": "http://rosettacode.org/wiki/Secure_temporary_file"
         },
         {
-            "title": "SEDOLs",
+            "id": 645,
+            "name": "SEDOLs",
             "link": "http://rosettacode.org/wiki/SEDOLs"
         },
         {
-            "title": "Self-describing numbers",
+            "id": 646,
+            "name": "Self-describing numbers",
             "link": "http://rosettacode.org/wiki/Self-describing_numbers"
         },
         {
-            "title": "Self-referential sequence",
+            "id": 647,
+            "name": "Self-referential sequence",
             "link": "http://rosettacode.org/wiki/Self-referential_sequence"
         },
         {
-            "title": "Semiprime",
+            "id": 648,
+            "name": "Semiprime",
             "link": "http://rosettacode.org/wiki/Semiprime"
         },
         {
-            "title": "Semordnilap",
+            "id": 649,
+            "name": "Semordnilap",
             "link": "http://rosettacode.org/wiki/Semordnilap"
         },
         {
-            "title": "Send an unknown method call",
+            "id": 650,
+            "name": "Send an unknown method call",
             "link": "http://rosettacode.org/wiki/Send_an_unknown_method_call"
         },
         {
-            "title": "Send email",
+            "id": 651,
+            "name": "Send email",
             "link": "http://rosettacode.org/wiki/Send_email"
         },
         {
-            "title": "Sequence of non-squares",
+            "id": 652,
+            "name": "Sequence of non-squares",
             "link": "http://rosettacode.org/wiki/Sequence_of_non-squares"
         },
         {
-            "title": "Sequence of primes by Trial Division",
+            "id": 653,
+            "name": "Sequence of primes by Trial Division",
             "link": "http://rosettacode.org/wiki/Sequence_of_primes_by_Trial_Division"
         },
         {
-            "title": "Set",
+            "id": 654,
+            "name": "Set",
             "link": "http://rosettacode.org/wiki/Set"
         },
         {
-            "title": "Set consolidation",
+            "id": 655,
+            "name": "Set consolidation",
             "link": "http://rosettacode.org/wiki/Set_consolidation"
         },
         {
-            "title": "Set of real numbers",
+            "id": 656,
+            "name": "Set of real numbers",
             "link": "http://rosettacode.org/wiki/Set_of_real_numbers"
         },
         {
-            "title": "Set puzzle",
+            "id": 657,
+            "name": "Set puzzle",
             "link": "http://rosettacode.org/wiki/Set_puzzle"
         },
         {
-            "title": "Seven-sided dice from five-sided dice",
+            "id": 658,
+            "name": "Seven-sided dice from five-sided dice",
             "link": "http://rosettacode.org/wiki/Seven-sided_dice_from_five-sided_dice"
         },
         {
-            "title": "SHA-1",
+            "id": 659,
+            "name": "SHA-1",
             "link": "http://rosettacode.org/wiki/SHA-1"
         },
         {
-            "title": "SHA-256",
+            "id": 660,
+            "name": "SHA-256",
             "link": "http://rosettacode.org/wiki/SHA-256"
         },
         {
-            "title": "Shell one-liner",
+            "id": 661,
+            "name": "Shell one-liner",
             "link": "http://rosettacode.org/wiki/Shell_one-liner"
         },
         {
-            "title": "Shoelace formula for polygonal area",
+            "id": 662,
+            "name": "Shoelace formula for polygonal area",
             "link": "http://rosettacode.org/wiki/Shoelace_formula_for_polygonal_area"
         },
         {
-            "title": "Short-circuit evaluation",
+            "id": 663,
+            "name": "Short-circuit evaluation",
             "link": "http://rosettacode.org/wiki/Short-circuit_evaluation"
         },
         {
-            "title": "Show the epoch",
+            "id": 664,
+            "name": "Show the epoch",
             "link": "http://rosettacode.org/wiki/Show_the_epoch"
         },
         {
-            "title": "Sierpinski carpet",
+            "id": 665,
+            "name": "Sierpinski carpet",
             "link": "http://rosettacode.org/wiki/Sierpinski_carpet"
         },
         {
-            "title": "Sierpinski pentagon",
+            "id": 666,
+            "name": "Sierpinski pentagon",
             "link": "http://rosettacode.org/wiki/Sierpinski_pentagon"
         },
         {
-            "title": "Sierpinski triangle",
+            "id": 667,
+            "name": "Sierpinski triangle",
             "link": "http://rosettacode.org/wiki/Sierpinski_triangle"
         },
         {
-            "title": "Sierpinski triangle/Graphical",
+            "id": 668,
+            "name": "Sierpinski triangle/Graphical",
             "link": "http://rosettacode.org/wiki/Sierpinski_triangle/Graphical"
         },
         {
-            "title": "Sieve of Eratosthenes",
+            "id": 669,
+            "name": "Sieve of Eratosthenes",
             "link": "http://rosettacode.org/wiki/Sieve_of_Eratosthenes"
         },
         {
-            "title": "Simple database",
+            "id": 670,
+            "name": "Simple database",
             "link": "http://rosettacode.org/wiki/Simple_database"
         },
         {
-            "title": "Simple windowed application",
+            "id": 671,
+            "name": "Simple windowed application",
             "link": "http://rosettacode.org/wiki/Simple_windowed_application"
         },
         {
-            "title": "Simulate input/Keyboard",
+            "id": 672,
+            "name": "Simulate input/Keyboard",
             "link": "http://rosettacode.org/wiki/Simulate_input/Keyboard"
         },
         {
-            "title": "Simulate input/Mouse",
+            "id": 673,
+            "name": "Simulate input/Mouse",
             "link": "http://rosettacode.org/wiki/Simulate_input/Mouse"
         },
         {
-            "title": "Singleton",
+            "id": 674,
+            "name": "Singleton",
             "link": "http://rosettacode.org/wiki/Singleton"
         },
         {
-            "title": "Singly-linked list/Element definition",
+            "id": 675,
+            "name": "Singly-linked list/Element definition",
             "link": "http://rosettacode.org/wiki/Singly-linked_list/Element_definition"
         },
         {
-            "title": "Singly-linked list/Element insertion",
+            "id": 676,
+            "name": "Singly-linked list/Element insertion",
             "link": "http://rosettacode.org/wiki/Singly-linked_list/Element_insertion"
         },
         {
-            "title": "Singly-linked list/Traversal",
+            "id": 677,
+            "name": "Singly-linked list/Traversal",
             "link": "http://rosettacode.org/wiki/Singly-linked_list/Traversal"
         },
         {
-            "title": "Sleep",
+            "id": 678,
+            "name": "Sleep",
             "link": "http://rosettacode.org/wiki/Sleep"
         },
         {
-            "title": "Smith numbers",
+            "id": 679,
+            "name": "Smith numbers",
             "link": "http://rosettacode.org/wiki/Smith_numbers"
         },
         {
-            "title": "SOAP",
+            "id": 680,
+            "name": "SOAP",
             "link": "http://rosettacode.org/wiki/SOAP"
         },
         {
-            "title": "Sockets",
+            "id": 681,
+            "name": "Sockets",
             "link": "http://rosettacode.org/wiki/Sockets"
         },
         {
-            "title": "Sokoban",
+            "id": 682,
+            "name": "Sokoban",
             "link": "http://rosettacode.org/wiki/Sokoban"
         },
         {
-            "title": "Solve a Hidato puzzle",
+            "id": 683,
+            "name": "Solve a Hidato puzzle",
             "link": "http://rosettacode.org/wiki/Solve_a_Hidato_puzzle"
         },
         {
-            "title": "Solve a Holy Knight's tour",
+            "id": 684,
+            "name": "Solve a Holy Knight's tour",
             "link": "http://rosettacode.org/wiki/Solve_a_Holy_Knight%27s_tour"
         },
         {
-            "title": "Solve a Hopido puzzle",
+            "id": 685,
+            "name": "Solve a Hopido puzzle",
             "link": "http://rosettacode.org/wiki/Solve_a_Hopido_puzzle"
         },
         {
-            "title": "Solve a Numbrix puzzle",
+            "id": 686,
+            "name": "Solve a Numbrix puzzle",
             "link": "http://rosettacode.org/wiki/Solve_a_Numbrix_puzzle"
         },
         {
-            "title": "Solve the no connection puzzle",
+            "id": 687,
+            "name": "Solve the no connection puzzle",
             "link": "http://rosettacode.org/wiki/Solve_the_no_connection_puzzle"
         },
         {
-            "title": "Sort a list of object identifiers",
+            "id": 688,
+            "name": "Sort a list of object identifiers",
             "link": "http://rosettacode.org/wiki/Sort_a_list_of_object_identifiers"
         },
         {
-            "title": "Sort an array of composite structures",
+            "id": 689,
+            "name": "Sort an array of composite structures",
             "link": "http://rosettacode.org/wiki/Sort_an_array_of_composite_structures"
         },
         {
-            "title": "Sort an integer array",
+            "id": 690,
+            "name": "Sort an integer array",
             "link": "http://rosettacode.org/wiki/Sort_an_integer_array"
         },
         {
-            "title": "Sort disjoint sublist",
+            "id": 691,
+            "name": "Sort disjoint sublist",
             "link": "http://rosettacode.org/wiki/Sort_disjoint_sublist"
         },
         {
-            "title": "Sort stability",
+            "id": 692,
+            "name": "Sort stability",
             "link": "http://rosettacode.org/wiki/Sort_stability"
         },
         {
-            "title": "Sort three variables",
+            "id": 693,
+            "name": "Sort three variables",
             "link": "http://rosettacode.org/wiki/Sort_three_variables"
         },
         {
-            "title": "Sort using a custom comparator",
+            "id": 694,
+            "name": "Sort using a custom comparator",
             "link": "http://rosettacode.org/wiki/Sort_using_a_custom_comparator"
         },
         {
-            "title": "Sorting algorithms/Bead sort",
+            "id": 695,
+            "name": "Sorting algorithms/Bead sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Bead_sort"
         },
         {
-            "title": "Sorting algorithms/Bogosort",
+            "id": 696,
+            "name": "Sorting algorithms/Bogosort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Bogosort"
         },
         {
-            "title": "Sorting algorithms/Bubble sort",
+            "id": 697,
+            "name": "Sorting algorithms/Bubble sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort"
         },
         {
-            "title": "Sorting algorithms/Cocktail sort",
+            "id": 698,
+            "name": "Sorting algorithms/Cocktail sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Cocktail_sort"
         },
         {
-            "title": "Sorting algorithms/Comb sort",
+            "id": 699,
+            "name": "Sorting algorithms/Comb sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Comb_sort"
         },
         {
-            "title": "Sorting algorithms/Counting sort",
+            "id": 700,
+            "name": "Sorting algorithms/Counting sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Counting_sort"
         },
         {
-            "title": "Sorting algorithms/Gnome sort",
+            "id": 701,
+            "name": "Sorting algorithms/Gnome sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Gnome_sort"
         },
         {
-            "title": "Sorting algorithms/Heapsort",
+            "id": 702,
+            "name": "Sorting algorithms/Heapsort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Heapsort"
         },
         {
-            "title": "Sorting algorithms/Insertion sort",
+            "id": 703,
+            "name": "Sorting algorithms/Insertion sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort"
         },
         {
-            "title": "Sorting algorithms/Merge sort",
+            "id": 704,
+            "name": "Sorting algorithms/Merge sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Merge_sort"
         },
         {
-            "title": "Sorting algorithms/Pancake sort",
+            "id": 705,
+            "name": "Sorting algorithms/Pancake sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Pancake_sort"
         },
         {
-            "title": "Sorting algorithms/Permutation sort",
+            "id": 706,
+            "name": "Sorting algorithms/Permutation sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Permutation_sort"
         },
         {
-            "title": "Sorting algorithms/Quicksort",
+            "id": 707,
+            "name": "Sorting algorithms/Quicksort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Quicksort"
         },
         {
-            "title": "Sorting algorithms/Radix sort",
+            "id": 708,
+            "name": "Sorting algorithms/Radix sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Radix_sort"
         },
         {
-            "title": "Sorting algorithms/Selection sort",
+            "id": 709,
+            "name": "Sorting algorithms/Selection sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Selection_sort"
         },
         {
-            "title": "Sorting algorithms/Shell sort",
+            "id": 710,
+            "name": "Sorting algorithms/Shell sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Shell_sort"
         },
         {
-            "title": "Sorting algorithms/Sleep sort",
+            "id": 711,
+            "name": "Sorting algorithms/Sleep sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort"
         },
         {
-            "title": "Sorting algorithms/Stooge sort",
+            "id": 712,
+            "name": "Sorting algorithms/Stooge sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Stooge_sort"
         },
         {
-            "title": "Sorting algorithms/Strand sort",
+            "id": 713,
+            "name": "Sorting algorithms/Strand sort",
             "link": "http://rosettacode.org/wiki/Sorting_algorithms/Strand_sort"
         },
         {
-            "title": "Soundex",
+            "id": 714,
+            "name": "Soundex",
             "link": "http://rosettacode.org/wiki/Soundex"
         },
         {
-            "title": "Sparkline in unicode",
+            "id": 715,
+            "name": "Sparkline in unicode",
             "link": "http://rosettacode.org/wiki/Sparkline_in_unicode"
         },
         {
-            "title": "Special characters",
+            "id": 716,
+            "name": "Special characters",
             "link": "http://rosettacode.org/wiki/Special_characters"
         },
         {
-            "title": "Special variables",
+            "id": 717,
+            "name": "Special variables",
             "link": "http://rosettacode.org/wiki/Special_variables"
         },
         {
-            "title": "Speech synthesis",
+            "id": 718,
+            "name": "Speech synthesis",
             "link": "http://rosettacode.org/wiki/Speech_synthesis"
         },
         {
-            "title": "Spiral matrix",
+            "id": 719,
+            "name": "Spiral matrix",
             "link": "http://rosettacode.org/wiki/Spiral_matrix"
         },
         {
-            "title": "Split a character string based on change of character",
+            "id": 720,
+            "name": "Split a character string based on change of character",
             "link": "http://rosettacode.org/wiki/Split_a_character_string_based_on_change_of_character"
         },
         {
-            "title": "SQL-based authentication",
+            "id": 721,
+            "name": "SQL-based authentication",
             "link": "http://rosettacode.org/wiki/SQL-based_authentication"
         },
         {
-            "title": "Stable marriage problem",
+            "id": 722,
+            "name": "Stable marriage problem",
             "link": "http://rosettacode.org/wiki/Stable_marriage_problem"
         },
         {
-            "title": "Stack",
+            "id": 723,
+            "name": "Stack",
             "link": "http://rosettacode.org/wiki/Stack"
         },
         {
-            "title": "Stack traces",
+            "id": 724,
+            "name": "Stack traces",
             "link": "http://rosettacode.org/wiki/Stack_traces"
         },
         {
-            "title": "Stair-climbing puzzle",
+            "id": 725,
+            "name": "Stair-climbing puzzle",
             "link": "http://rosettacode.org/wiki/Stair-climbing_puzzle"
         },
         {
-            "title": "Start from a main routine",
+            "id": 726,
+            "name": "Start from a main routine",
             "link": "http://rosettacode.org/wiki/Start_from_a_main_routine"
         },
         {
-            "title": "State name puzzle",
+            "id": 727,
+            "name": "State name puzzle",
             "link": "http://rosettacode.org/wiki/State_name_puzzle"
         },
         {
-            "title": "Statistics/Basic",
+            "id": 728,
+            "name": "Statistics/Basic",
             "link": "http://rosettacode.org/wiki/Statistics/Basic"
         },
         {
-            "title": "Statistics/Normal distribution",
+            "id": 729,
+            "name": "Statistics/Normal distribution",
             "link": "http://rosettacode.org/wiki/Statistics/Normal_distribution"
         },
         {
-            "title": "Stem-and-leaf plot",
+            "id": 730,
+            "name": "Stem-and-leaf plot",
             "link": "http://rosettacode.org/wiki/Stem-and-leaf_plot"
         },
         {
-            "title": "Stern-Brocot sequence",
+            "id": 731,
+            "name": "Stern-Brocot sequence",
             "link": "http://rosettacode.org/wiki/Stern-Brocot_sequence"
         },
         {
-            "title": "Straddling checkerboard",
+            "id": 732,
+            "name": "Straddling checkerboard",
             "link": "http://rosettacode.org/wiki/Straddling_checkerboard"
         },
         {
-            "title": "Stream Merge",
+            "id": 733,
+            "name": "Stream Merge",
             "link": "http://rosettacode.org/wiki/Stream_Merge"
         },
         {
-            "title": "String append",
+            "id": 734,
+            "name": "String append",
             "link": "http://rosettacode.org/wiki/String_append"
         },
         {
-            "title": "String case",
+            "id": 735,
+            "name": "String case",
             "link": "http://rosettacode.org/wiki/String_case"
         },
         {
-            "title": "String comparison",
+            "id": 736,
+            "name": "String comparison",
             "link": "http://rosettacode.org/wiki/String_comparison"
         },
         {
-            "title": "String concatenation",
+            "id": 737,
+            "name": "String concatenation",
             "link": "http://rosettacode.org/wiki/String_concatenation"
         },
         {
-            "title": "String interpolation (included)",
+            "id": 738,
+            "name": "String interpolation (included)",
             "link": "http://rosettacode.org/wiki/String_interpolation_(included)"
         },
         {
-            "title": "String length",
+            "id": 739,
+            "name": "String length",
             "link": "http://rosettacode.org/wiki/String_length"
         },
         {
-            "title": "String matching",
+            "id": 740,
+            "name": "String matching",
             "link": "http://rosettacode.org/wiki/String_matching"
         },
         {
-            "title": "String prepend",
+            "id": 741,
+            "name": "String prepend",
             "link": "http://rosettacode.org/wiki/String_prepend"
         },
         {
-            "title": "Strip a set of characters from a string",
+            "id": 742,
+            "name": "Strip a set of characters from a string",
             "link": "http://rosettacode.org/wiki/Strip_a_set_of_characters_from_a_string"
         },
         {
-            "title": "Strip block comments",
+            "id": 743,
+            "name": "Strip block comments",
             "link": "http://rosettacode.org/wiki/Strip_block_comments"
         },
         {
-            "title": "Strip comments from a string",
+            "id": 744,
+            "name": "Strip comments from a string",
             "link": "http://rosettacode.org/wiki/Strip_comments_from_a_string"
         },
         {
-            "title": "Strip control codes and extended characters from a string",
+            "id": 745,
+            "name": "Strip control codes and extended characters from a string",
             "link": "http://rosettacode.org/wiki/Strip_control_codes_and_extended_characters_from_a_string"
         },
         {
-            "title": "Strip whitespace from a string/Top and tail",
+            "id": 746,
+            "name": "Strip whitespace from a string/Top and tail",
             "link": "http://rosettacode.org/wiki/Strip_whitespace_from_a_string/Top_and_tail"
         },
         {
-            "title": "Subleq",
+            "id": 747,
+            "name": "Subleq",
             "link": "http://rosettacode.org/wiki/Subleq"
         },
         {
-            "title": "Substring",
+            "id": 748,
+            "name": "Substring",
             "link": "http://rosettacode.org/wiki/Substring"
         },
         {
-            "title": "Substring/Top and tail",
+            "id": 749,
+            "name": "Substring/Top and tail",
             "link": "http://rosettacode.org/wiki/Substring/Top_and_tail"
         },
         {
-            "title": "Subtractive generator",
+            "id": 750,
+            "name": "Subtractive generator",
             "link": "http://rosettacode.org/wiki/Subtractive_generator"
         },
         {
-            "title": "Sudoku",
+            "id": 751,
+            "name": "Sudoku",
             "link": "http://rosettacode.org/wiki/Sudoku"
         },
         {
-            "title": "Sum and product of an array",
+            "id": 752,
+            "name": "Sum and product of an array",
             "link": "http://rosettacode.org/wiki/Sum_and_product_of_an_array"
         },
         {
-            "title": "Sum and Product Puzzle",
+            "id": 753,
+            "name": "Sum and Product Puzzle",
             "link": "http://rosettacode.org/wiki/Sum_and_Product_Puzzle"
         },
         {
-            "title": "Sum digits of an integer",
+            "id": 754,
+            "name": "Sum digits of an integer",
             "link": "http://rosettacode.org/wiki/Sum_digits_of_an_integer"
         },
         {
-            "title": "Sum multiples of 3 and 5",
+            "id": 755,
+            "name": "Sum multiples of 3 and 5",
             "link": "http://rosettacode.org/wiki/Sum_multiples_of_3_and_5"
         },
         {
-            "title": "Sum of a series",
+            "id": 756,
+            "name": "Sum of a series",
             "link": "http://rosettacode.org/wiki/Sum_of_a_series"
         },
         {
-            "title": "Sum of squares",
+            "id": 757,
+            "name": "Sum of squares",
             "link": "http://rosettacode.org/wiki/Sum_of_squares"
         },
         {
-            "title": "Sum to 100",
+            "id": 758,
+            "name": "Sum to 100",
             "link": "http://rosettacode.org/wiki/Sum_to_100"
         },
         {
-            "title": "Superellipse",
+            "id": 759,
+            "name": "Superellipse",
             "link": "http://rosettacode.org/wiki/Superellipse"
         },
         {
-            "title": "Sutherland-Hodgman polygon clipping",
+            "id": 760,
+            "name": "Sutherland-Hodgman polygon clipping",
             "link": "http://rosettacode.org/wiki/Sutherland-Hodgman_polygon_clipping"
         },
         {
-            "title": "Symmetric difference",
+            "id": 761,
+            "name": "Symmetric difference",
             "link": "http://rosettacode.org/wiki/Symmetric_difference"
         },
         {
-            "title": "Synchronous concurrency",
+            "id": 762,
+            "name": "Synchronous concurrency",
             "link": "http://rosettacode.org/wiki/Synchronous_concurrency"
         },
         {
-            "title": "System time",
+            "id": 763,
+            "name": "System time",
             "link": "http://rosettacode.org/wiki/System_time"
         },
         {
-            "title": "Table creation/Postal addresses",
+            "id": 764,
+            "name": "Table creation/Postal addresses",
             "link": "http://rosettacode.org/wiki/Table_creation/Postal_addresses"
         },
         {
-            "title": "Take notes on the command line",
+            "id": 765,
+            "name": "Take notes on the command line",
             "link": "http://rosettacode.org/wiki/Take_notes_on_the_command_line"
         },
         {
-            "title": "Taxicab numbers",
+            "id": 766,
+            "name": "Taxicab numbers",
             "link": "http://rosettacode.org/wiki/Taxicab_numbers"
         },
         {
-            "title": "Temperature conversion",
+            "id": 767,
+            "name": "Temperature conversion",
             "link": "http://rosettacode.org/wiki/Temperature_conversion"
         },
         {
-            "title": "Terminal control/Clear the screen",
+            "id": 768,
+            "name": "Terminal control/Clear the screen",
             "link": "http://rosettacode.org/wiki/Terminal_control/Clear_the_screen"
         },
         {
-            "title": "Terminal control/Coloured text",
+            "id": 769,
+            "name": "Terminal control/Coloured text",
             "link": "http://rosettacode.org/wiki/Terminal_control/Coloured_text"
         },
         {
-            "title": "Terminal control/Cursor movement",
+            "id": 770,
+            "name": "Terminal control/Cursor movement",
             "link": "http://rosettacode.org/wiki/Terminal_control/Cursor_movement"
         },
         {
-            "title": "Terminal control/Cursor positioning",
+            "id": 771,
+            "name": "Terminal control/Cursor positioning",
             "link": "http://rosettacode.org/wiki/Terminal_control/Cursor_positioning"
         },
         {
-            "title": "Terminal control/Dimensions",
+            "id": 772,
+            "name": "Terminal control/Dimensions",
             "link": "http://rosettacode.org/wiki/Terminal_control/Dimensions"
         },
         {
-            "title": "Terminal control/Display an extended character",
+            "id": 773,
+            "name": "Terminal control/Display an extended character",
             "link": "http://rosettacode.org/wiki/Terminal_control/Display_an_extended_character"
         },
         {
-            "title": "Terminal control/Hiding the cursor",
+            "id": 774,
+            "name": "Terminal control/Hiding the cursor",
             "link": "http://rosettacode.org/wiki/Terminal_control/Hiding_the_cursor"
         },
         {
-            "title": "Terminal control/Inverse video",
+            "id": 775,
+            "name": "Terminal control/Inverse video",
             "link": "http://rosettacode.org/wiki/Terminal_control/Inverse_video"
         },
         {
-            "title": "Terminal control/Positional read",
+            "id": 776,
+            "name": "Terminal control/Positional read",
             "link": "http://rosettacode.org/wiki/Terminal_control/Positional_read"
         },
         {
-            "title": "Terminal control/Preserve screen",
+            "id": 777,
+            "name": "Terminal control/Preserve screen",
             "link": "http://rosettacode.org/wiki/Terminal_control/Preserve_screen"
         },
         {
-            "title": "Terminal control/Ringing the terminal bell",
+            "id": 778,
+            "name": "Terminal control/Ringing the terminal bell",
             "link": "http://rosettacode.org/wiki/Terminal_control/Ringing_the_terminal_bell"
         },
         {
-            "title": "Terminal control/Unicode output",
+            "id": 779,
+            "name": "Terminal control/Unicode output",
             "link": "http://rosettacode.org/wiki/Terminal_control/Unicode_output"
         },
         {
-            "title": "Ternary logic",
+            "id": 780,
+            "name": "Ternary logic",
             "link": "http://rosettacode.org/wiki/Ternary_logic"
         },
         {
-            "title": "Test a function",
+            "id": 781,
+            "name": "Test a function",
             "link": "http://rosettacode.org/wiki/Test_a_function"
         },
         {
-            "title": "Test integerness",
+            "id": 782,
+            "name": "Test integerness",
             "link": "http://rosettacode.org/wiki/Test_integerness"
         },
         {
-            "title": "Text processing/1",
+            "id": 783,
+            "name": "Text processing/1",
             "link": "http://rosettacode.org/wiki/Text_processing/1"
         },
         {
-            "title": "Text processing/2",
+            "id": 784,
+            "name": "Text processing/2",
             "link": "http://rosettacode.org/wiki/Text_processing/2"
         },
         {
-            "title": "Text processing/Max licenses in use",
+            "id": 785,
+            "name": "Text processing/Max licenses in use",
             "link": "http://rosettacode.org/wiki/Text_processing/Max_licenses_in_use"
         },
         {
-            "title": "Textonyms",
+            "id": 786,
+            "name": "Textonyms",
             "link": "http://rosettacode.org/wiki/Textonyms"
         },
         {
-            "title": "The ISAAC Cipher",
+            "id": 787,
+            "name": "The ISAAC Cipher",
             "link": "http://rosettacode.org/wiki/The_ISAAC_Cipher"
         },
         {
-            "title": "The Twelve Days of Christmas",
+            "id": 788,
+            "name": "The Twelve Days of Christmas",
             "link": "http://rosettacode.org/wiki/The_Twelve_Days_of_Christmas"
         },
         {
-            "title": "Thiele's interpolation formula",
+            "id": 789,
+            "name": "Thiele's interpolation formula",
             "link": "http://rosettacode.org/wiki/Thiele%27s_interpolation_formula"
         },
         {
-            "title": "Thue-Morse",
+            "id": 790,
+            "name": "Thue-Morse",
             "link": "http://rosettacode.org/wiki/Thue-Morse"
         },
         {
-            "title": "Tic-tac-toe",
+            "id": 791,
+            "name": "Tic-tac-toe",
             "link": "http://rosettacode.org/wiki/Tic-tac-toe"
         },
         {
-            "title": "Time a function",
+            "id": 792,
+            "name": "Time a function",
             "link": "http://rosettacode.org/wiki/Time_a_function"
         },
         {
-            "title": "Tokenize a string",
+            "id": 793,
+            "name": "Tokenize a string",
             "link": "http://rosettacode.org/wiki/Tokenize_a_string"
         },
         {
-            "title": "Tokenize a string with escaping",
+            "id": 794,
+            "name": "Tokenize a string with escaping",
             "link": "http://rosettacode.org/wiki/Tokenize_a_string_with_escaping"
         },
         {
-            "title": "Top rank per group",
+            "id": 795,
+            "name": "Top rank per group",
             "link": "http://rosettacode.org/wiki/Top_rank_per_group"
         },
         {
-            "title": "Topic variable",
+            "id": 796,
+            "name": "Topic variable",
             "link": "http://rosettacode.org/wiki/Topic_variable"
         },
         {
-            "title": "Topological sort",
+            "id": 797,
+            "name": "Topological sort",
             "link": "http://rosettacode.org/wiki/Topological_sort"
         },
         {
-            "title": "Topswops",
+            "id": 798,
+            "name": "Topswops",
             "link": "http://rosettacode.org/wiki/Topswops"
         },
         {
-            "title": "Total circles area",
+            "id": 799,
+            "name": "Total circles area",
             "link": "http://rosettacode.org/wiki/Total_circles_area"
         },
         {
-            "title": "Towers of Hanoi",
+            "id": 800,
+            "name": "Towers of Hanoi",
             "link": "http://rosettacode.org/wiki/Towers_of_Hanoi"
         },
         {
-            "title": "Trabb Pardo–Knuth algorithm",
+            "id": 801,
+            "name": "Trabb Pardo–Knuth algorithm",
             "link": "http://rosettacode.org/wiki/Trabb_Pardo%E2%80%93Knuth_algorithm"
         },
         {
-            "title": "Tree traversal",
+            "id": 802,
+            "name": "Tree traversal",
             "link": "http://rosettacode.org/wiki/Tree_traversal"
         },
         {
-            "title": "Trigonometric functions",
+            "id": 803,
+            "name": "Trigonometric functions",
             "link": "http://rosettacode.org/wiki/Trigonometric_functions"
         },
         {
-            "title": "Truncatable primes",
+            "id": 804,
+            "name": "Truncatable primes",
             "link": "http://rosettacode.org/wiki/Truncatable_primes"
         },
         {
-            "title": "Truncate a file",
+            "id": 805,
+            "name": "Truncate a file",
             "link": "http://rosettacode.org/wiki/Truncate_a_file"
         },
         {
-            "title": "Truth table",
+            "id": 806,
+            "name": "Truth table",
             "link": "http://rosettacode.org/wiki/Truth_table"
         },
         {
-            "title": "Twelve statements",
+            "id": 807,
+            "name": "Twelve statements",
             "link": "http://rosettacode.org/wiki/Twelve_statements"
         },
         {
-            "title": "Ulam spiral (for primes)",
+            "id": 808,
+            "name": "Ulam spiral (for primes)",
             "link": "http://rosettacode.org/wiki/Ulam_spiral_(for_primes)"
         },
         {
-            "title": "Unbias a random generator",
+            "id": 809,
+            "name": "Unbias a random generator",
             "link": "http://rosettacode.org/wiki/Unbias_a_random_generator"
         },
         {
-            "title": "Undefined values",
+            "id": 810,
+            "name": "Undefined values",
             "link": "http://rosettacode.org/wiki/Undefined_values"
         },
         {
-            "title": "Unicode strings",
+            "id": 811,
+            "name": "Unicode strings",
             "link": "http://rosettacode.org/wiki/Unicode_strings"
         },
         {
-            "title": "Unicode variable names",
+            "id": 812,
+            "name": "Unicode variable names",
             "link": "http://rosettacode.org/wiki/Unicode_variable_names"
         },
         {
-            "title": "Universal Turing machine",
+            "id": 813,
+            "name": "Universal Turing machine",
             "link": "http://rosettacode.org/wiki/Universal_Turing_machine"
         },
         {
-            "title": "Unix/ls",
+            "id": 814,
+            "name": "Unix/ls",
             "link": "http://rosettacode.org/wiki/Unix/ls"
         },
         {
-            "title": "Update a configuration file",
+            "id": 815,
+            "name": "Update a configuration file",
             "link": "http://rosettacode.org/wiki/Update_a_configuration_file"
         },
         {
-            "title": "URL decoding",
+            "id": 816,
+            "name": "URL decoding",
             "link": "http://rosettacode.org/wiki/URL_decoding"
         },
         {
-            "title": "URL encoding",
+            "id": 817,
+            "name": "URL encoding",
             "link": "http://rosettacode.org/wiki/URL_encoding"
         },
         {
-            "title": "URL parser",
+            "id": 818,
+            "name": "URL parser",
             "link": "http://rosettacode.org/wiki/URL_parser"
         },
         {
-            "title": "Use another language to call a function",
+            "id": 819,
+            "name": "Use another language to call a function",
             "link": "http://rosettacode.org/wiki/Use_another_language_to_call_a_function"
         },
         {
-            "title": "User input/Graphical",
+            "id": 820,
+            "name": "User input/Graphical",
             "link": "http://rosettacode.org/wiki/User_input/Graphical"
         },
         {
-            "title": "User input/Text",
+            "id": 821,
+            "name": "User input/Text",
             "link": "http://rosettacode.org/wiki/User_input/Text"
         },
         {
-            "title": "UTF-8 encode and decode",
+            "id": 822,
+            "name": "UTF-8 encode and decode",
             "link": "http://rosettacode.org/wiki/UTF-8_encode_and_decode"
         },
         {
-            "title": "Validate International Securities Identification Number",
+            "id": 823,
+            "name": "Validate International Securities Identification Number",
             "link": "http://rosettacode.org/wiki/Validate_International_Securities_Identification_Number"
         },
         {
-            "title": "Vampire number",
+            "id": 824,
+            "name": "Vampire number",
             "link": "http://rosettacode.org/wiki/Vampire_number"
         },
         {
-            "title": "Van der Corput sequence",
+            "id": 825,
+            "name": "Van der Corput sequence",
             "link": "http://rosettacode.org/wiki/Van_der_Corput_sequence"
         },
         {
-            "title": "Variable size/Get",
+            "id": 826,
+            "name": "Variable size/Get",
             "link": "http://rosettacode.org/wiki/Variable_size/Get"
         },
         {
-            "title": "Variable size/Set",
+            "id": 827,
+            "name": "Variable size/Set",
             "link": "http://rosettacode.org/wiki/Variable_size/Set"
         },
         {
-            "title": "Variable-length quantity",
+            "id": 828,
+            "name": "Variable-length quantity",
             "link": "http://rosettacode.org/wiki/Variable-length_quantity"
         },
         {
-            "title": "Variables",
+            "id": 829,
+            "name": "Variables",
             "link": "http://rosettacode.org/wiki/Variables"
         },
         {
-            "title": "Variadic function",
+            "id": 830,
+            "name": "Variadic function",
             "link": "http://rosettacode.org/wiki/Variadic_function"
         },
         {
-            "title": "Vector products",
+            "id": 831,
+            "name": "Vector products",
             "link": "http://rosettacode.org/wiki/Vector_products"
         },
         {
-            "title": "Verify distribution uniformity/Chi-squared test",
+            "id": 832,
+            "name": "Verify distribution uniformity/Chi-squared test",
             "link": "http://rosettacode.org/wiki/Verify_distribution_uniformity/Chi-squared_test"
         },
         {
-            "title": "Verify distribution uniformity/Naive",
+            "id": 833,
+            "name": "Verify distribution uniformity/Naive",
             "link": "http://rosettacode.org/wiki/Verify_distribution_uniformity/Naive"
         },
         {
-            "title": "Video display modes",
+            "id": 834,
+            "name": "Video display modes",
             "link": "http://rosettacode.org/wiki/Video_display_modes"
         },
         {
-            "title": "Vigenère cipher",
+            "id": 835,
+            "name": "Vigenère cipher",
             "link": "http://rosettacode.org/wiki/Vigen%C3%A8re_cipher"
         },
         {
-            "title": "Vigenère cipher/Cryptanalysis",
+            "id": 836,
+            "name": "Vigenère cipher/Cryptanalysis",
             "link": "http://rosettacode.org/wiki/Vigen%C3%A8re_cipher/Cryptanalysis"
         },
         {
-            "title": "Visualize a tree",
+            "id": 837,
+            "name": "Visualize a tree",
             "link": "http://rosettacode.org/wiki/Visualize_a_tree"
         },
         {
-            "title": "Vogel's approximation method",
+            "id": 838,
+            "name": "Vogel's approximation method",
             "link": "http://rosettacode.org/wiki/Vogel%27s_approximation_method"
         },
         {
-            "title": "Voronoi diagram",
+            "id": 839,
+            "name": "Voronoi diagram",
             "link": "http://rosettacode.org/wiki/Voronoi_diagram"
         },
         {
-            "title": "Walk a directory/Non-recursively",
+            "id": 840,
+            "name": "Walk a directory/Non-recursively",
             "link": "http://rosettacode.org/wiki/Walk_a_directory/Non-recursively"
         },
         {
-            "title": "Walk a directory/Recursively",
+            "id": 841,
+            "name": "Walk a directory/Recursively",
             "link": "http://rosettacode.org/wiki/Walk_a_directory/Recursively"
         },
         {
-            "title": "Water collected between towers",
+            "id": 842,
+            "name": "Water collected between towers",
             "link": "http://rosettacode.org/wiki/Water_collected_between_towers"
         },
         {
-            "title": "Web scraping",
+            "id": 843,
+            "name": "Web scraping",
             "link": "http://rosettacode.org/wiki/Web_scraping"
         },
         {
-            "title": "Window creation",
+            "id": 844,
+            "name": "Window creation",
             "link": "http://rosettacode.org/wiki/Window_creation"
         },
         {
-            "title": "Window creation/X11",
+            "id": 845,
+            "name": "Window creation/X11",
             "link": "http://rosettacode.org/wiki/Window_creation/X11"
         },
         {
-            "title": "Window management",
+            "id": 846,
+            "name": "Window management",
             "link": "http://rosettacode.org/wiki/Window_management"
         },
         {
-            "title": "Wireworld",
+            "id": 847,
+            "name": "Wireworld",
             "link": "http://rosettacode.org/wiki/Wireworld"
         },
         {
-            "title": "Word search",
+            "id": 848,
+            "name": "Word search",
             "link": "http://rosettacode.org/wiki/Word_search"
         },
         {
-            "title": "Word wrap",
+            "id": 849,
+            "name": "Word wrap",
             "link": "http://rosettacode.org/wiki/Word_wrap"
         },
         {
-            "title": "World Cup group stage",
+            "id": 850,
+            "name": "World Cup group stage",
             "link": "http://rosettacode.org/wiki/World_Cup_group_stage"
         },
         {
-            "title": "Write entire file",
+            "id": 851,
+            "name": "Write entire file",
             "link": "http://rosettacode.org/wiki/Write_entire_file"
         },
         {
-            "title": "Write float arrays to a text file",
+            "id": 852,
+            "name": "Write float arrays to a text file",
             "link": "http://rosettacode.org/wiki/Write_float_arrays_to_a_text_file"
         },
         {
-            "title": "Write language name in 3D ASCII",
+            "id": 853,
+            "name": "Write language name in 3D ASCII",
             "link": "http://rosettacode.org/wiki/Write_language_name_in_3D_ASCII"
         },
         {
-            "title": "Write to Windows event log",
+            "id": 854,
+            "name": "Write to Windows event log",
             "link": "http://rosettacode.org/wiki/Write_to_Windows_event_log"
         },
         {
-            "title": "Xiaolin Wu's line algorithm",
+            "id": 855,
+            "name": "Xiaolin Wu's line algorithm",
             "link": "http://rosettacode.org/wiki/Xiaolin_Wu%27s_line_algorithm"
         },
         {
-            "title": "XML/DOM serialization",
+            "id": 856,
+            "name": "XML/DOM serialization",
             "link": "http://rosettacode.org/wiki/XML/DOM_serialization"
         },
         {
-            "title": "XML/Input",
+            "id": 857,
+            "name": "XML/Input",
             "link": "http://rosettacode.org/wiki/XML/Input"
         },
         {
-            "title": "XML/Output",
+            "id": 858,
+            "name": "XML/Output",
             "link": "http://rosettacode.org/wiki/XML/Output"
         },
         {
-            "title": "XML/XPath",
+            "id": 859,
+            "name": "XML/XPath",
             "link": "http://rosettacode.org/wiki/XML/XPath"
         },
         {
-            "title": "Y combinator",
+            "id": 860,
+            "name": "Y combinator",
             "link": "http://rosettacode.org/wiki/Y_combinator"
         },
         {
-            "title": "Yahoo! search interface",
+            "id": 861,
+            "name": "Yahoo! search interface",
             "link": "http://rosettacode.org/wiki/Yahoo!_search_interface"
         },
         {
-            "title": "Yin and yang",
+            "id": 862,
+            "name": "Yin and yang",
             "link": "http://rosettacode.org/wiki/Yin_and_yang"
         },
         {
-            "title": "Zebra puzzle",
+            "id": 863,
+            "name": "Zebra puzzle",
             "link": "http://rosettacode.org/wiki/Zebra_puzzle"
         },
         {
-            "title": "Zeckendorf arithmetic",
+            "id": 864,
+            "name": "Zeckendorf arithmetic",
             "link": "http://rosettacode.org/wiki/Zeckendorf_arithmetic"
         },
         {
-            "title": "Zeckendorf number representation",
+            "id": 865,
+            "name": "Zeckendorf number representation",
             "link": "http://rosettacode.org/wiki/Zeckendorf_number_representation"
         },
         {
-            "title": "Zero to the zero power",
+            "id": 866,
+            "name": "Zero to the zero power",
             "link": "http://rosettacode.org/wiki/Zero_to_the_zero_power"
         },
         {
-            "title": "Zhang-Suen thinning algorithm",
+            "id": 867,
+            "name": "Zhang-Suen thinning algorithm",
             "link": "http://rosettacode.org/wiki/Zhang-Suen_thinning_algorithm"
         },
         {
-            "title": "Zig-zag matrix",
+            "id": 868,
+            "name": "Zig-zag matrix",
             "link": "http://rosettacode.org/wiki/Zig-zag_matrix"
         }
     ]
-}

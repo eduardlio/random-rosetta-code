@@ -1,0 +1,11 @@
+<div *ngIf="exercise">
+   <h1> {{ exercise.name }} </h1>
+   <a href="{{exercise.link}}" target="_blank">GO</a>
+   <div class="button-wrap">
+      <a (click)="setExercise(this.prev())">prev</a>
+
+      <a (click)="setExercise(this.random())">rand</a>
+
+      <a (click)="setExercise(this.next())">next</a>
+   </div>
+</div>
