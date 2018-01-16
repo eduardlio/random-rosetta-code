@@ -7,6 +7,7 @@ rrc/out-tsc
 
 # dependencies
 rrc/node_modules
+stdhtml/node_modules
 
 # IDEs and editors
 rrc/.idea
